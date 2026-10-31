@@ -507,7 +507,7 @@
   function showToast(text) {
     const box = $("#toast");
     const icon = $("#toastIcon");
-    if (!icon.getAttribute("src")) setPicture(icon, "5");
+    if (!icon.getAttribute("src")) setPicture(icon, "badge");
     $("#toastText").textContent = text;
     clearTimeout(toastTimer);
     box.hidden = true;
@@ -1213,10 +1213,10 @@
 
   checkPass().then((ok) => (ok ? start() : showGate()), () => showGate());
 
-  // 첫 화면이 다 뜬 뒤, 로딩·토스트 캐릭터를 조용히 미리 받아둔다 (느린 와이파이 대비)
+  // 첫 화면이 다 뜬 뒤, 로딩 캐릭터와 토스트 배지를 조용히 미리 받아둔다 (느린 와이파이 대비)
   window.addEventListener("load", () => {
     if (!unlocked) return;
     const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 1200));
-    idle(() => { setPicture($("#loadingChar"), "5"); setPicture($("#toastIcon"), "5"); });
+    idle(() => { setPicture($("#loadingChar"), "5"); setPicture($("#toastIcon"), "badge"); });
   });
 })();

@@ -26,6 +26,7 @@ convert assets/PNG/3.png assets/webp/3.webp 1036
 convert assets/PNG/4.png assets/webp/4.webp 730
 convert assets/PNG/5.png assets/webp/5.webp 800
 convert assets/PNG/6.png assets/webp/6.webp 292
+convert assets/PNG/badge.png assets/webp/badge.webp 685
 
 for f in assets/covers/*.png; do
   [ -e "$f" ] || continue
