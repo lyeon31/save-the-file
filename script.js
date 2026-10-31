@@ -599,7 +599,7 @@
           return el("li", { class: `ydi-item${on ? " on" : ""}`, id: `ydi-${it.no}` },
             el("div", { class: "ydi-row" },
               el("span", { class: "ydi-badge", "aria-hidden": "true" },
-                on ? el("span", { class: "trophy", text: "🏆" }) : lockIcon()),
+                on ? el("img", { class: "ydi-badge-img", src: imgSrc("badge"), alt: "", width: "685", height: "419", decoding: "async" }) : lockIcon()),
               el("div", { class: "ydi-head" },
                 el("span", { class: "ydi-no", text: `No.${pad2(it.no)}${on ? "" : " · " + t("locked")}` }),
                 el("h3", { class: "ydi-name", text: d.title })
