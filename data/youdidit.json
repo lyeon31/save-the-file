@@ -1,0 +1,531 @@
+{
+  "id": "youdidit",
+  "intro": {
+    "ko": [
+      "게임에서 업적은 게임을 더 오래 붙잡게 만든다.",
+      "같은 행동을 반복하거나 특정 조건을 채우다 보면, 새로운 방식으로 플레이해 보기도 한다. 또 다른 재미 요소다.",
+      "1년 동안 반복해서 쓴 말과 스킬, 자꾸 마주친 상황에도 업적을 붙여보았다. 스스로에게 훈장을 만들어줬다.",
+      "그런 타이틀 하나쯤 달고 있으면 괜히 더 멋있어 보이기 때문이다.",
+      "",
+      "예를 들어 김철수가 있다. 그냥 김철수는 평범하지만, \"분노의 비즈니스 번역가\" 김철수는 뭔가 멋있어 보인다.",
+      "내 이름 앞에 붙을 업적을 직접 만들어도 좋을 것 같다.",
+      "이런 업적 하나쯤 붙이면, 나도 조금 더 멋있어 보일지도?"
+    ],
+    "en": [
+      "Achievements keep you playing even after a game's main story ends. Repeating actions or meeting certain goals encourages you to try new ways to play. Let's make achievements for the words, skills, and situations you repeat throughout the year. It's like giving yourself a medal and a title that makes you sound a little cooler.",
+      "For example, \"Kim Cheol-su\" sounds ordinary, but \"Furious Business Translator Kim Cheol-su\" has a different ring to it.",
+      "Try creating a title to put before your name. Your everyday achievements might make you look a little cooler, too."
+    ],
+    "id": [
+      "Pencapaian (achievements) membuatmu terus bermain bahkan setelah cerita utama sebuah game selesai. Mengulang tindakan atau mencapai tujuan tertentu mendorongmu untuk mencoba cara bermain yang baru. Mari kita buat pencapaian untuk kata-kata, skill, dan situasi yang terus kamu ulang sepanjang tahun. Ini seperti memberimu medali dan gelar (title) yang membuatmu terdengar sedikit lebih keren.",
+      "Misalnya, \"Kim Cheol-su\" terdengar biasa saja, tapi \"Penerjemah Bisnis yang Mengamuk Kim Cheol-su\" punya nuansa yang berbeda.",
+      "Cobalah membuat gelar untuk ditaruh di depan namamu. Pencapaian sehari-harimu mungkin bisa membuatmu terlihat sedikit lebih keren juga."
+    ]
+  },
+  "items": [
+    {
+      "no": 1,
+      "ko": {
+        "title": "포트폴리오 업데이트 예정자",
+        "desc": "클라이언트 작업은 다 끝냈는데, 포트폴리오 업데이트는 6개월 이상 미루어졌을때 달성한다. 남의 브랜드는 열심히 정리하면서, 내 것은 늘 다음 순위다. 업데이트할 작업은 쌓이는데, 정리할 시간은 쌓이지 않는다.",
+        "reward": "쌓인 작업물, 6개월 전부터 미뤄온 내 작업"
+      },
+      "en": {
+        "title": "Future Portfolio Updater",
+        "desc": "You finished all your client work, but you delayed updating your portfolio for more than 6 months. You organize other brands well, but your own work is always last.",
+        "reward": "Piled up work, your own work delayed from 6 months ago."
+      },
+      "id": {
+        "title": "Peng-update Portofolio Masa Depan (Future Portfolio Updater)",
+        "desc": "Kamu menyelesaikan semua pekerjaan klien, tapi kamu menunda memperbarui portofoliomu sendiri selama lebih dari 6 bulan. Kamu menata brand orang lain dengan baik, tapi pekerjaanmu sendiri selalu jadi yang terakhir.",
+        "reward": "Pekerjaan menumpuk, pekerjaanmu sendiri tertunda sejak 6 bulan lalu."
+      }
+    },
+    {
+      "no": 2,
+      "ko": {
+        "title": "해지 버튼 망설임",
+        "desc": "구독을 해지하려고 들어갔다가 결국 하나도 해지하지 못하고 나왔을 때 달성한다. \"이번 달까지만 쓰고 끊자\"를 몇 달째 반복하고 있다. 막상 써보면 또 괜찮아서 끊을 수가 없다.",
+        "reward": "다음 달 결제 알림, 구독 목록"
+      },
+      "en": {
+        "title": "Can't Click Cancel",
+        "desc": "You went to cancel a subscription, but you couldn't cancel anything and came back out. You keep saying, \"I will just use it this month and stop,\" but you can't stop because it is actually useful.",
+        "reward": "Next month's payment alert, subscription list."
+      },
+      "id": {
+        "title": "Nggak Bisa Klik Batal (Can't Click Cancel)",
+        "desc": "Kamu berniat membatalkan langganan (subscription), tapi ujung-ujungnya nggak bisa membatalkan apa pun dan malah keluar. Kamu terus bilang, \"Aku pakai bulan ini aja deh terus berhenti,\" tapi kamu nggak bisa berhenti karena ternyata aplikasinya berguna banget.",
+        "reward": "Peringatan tagihan bulan depan, daftar langganan."
+      }
+    },
+    {
+      "no": 3,
+      "ko": {
+        "title": "AI 아마추어 조련사",
+        "desc": "AI 구독이 늘어나고, 한 이미지를 만들기 위해 4개 이상의 프롬프트를 써봤을 때 달성한다. \"이 정도면 이제 AI 잘 쓴다고 할 수 있겠지?\" 싶어진다. 하지만 다른 사람의 작업물과 AI의 빠른 업데이트를 마주하면, 또 다시 아마추어로 돌아간다.",
+        "reward": "AI 업데이트, AI 마스터를 향한 발걸음"
+      },
+      "en": {
+        "title": "Amateur AI Tamer",
+        "desc": "You have more AI subscriptions, and you use more than 4 prompts to make one image. You think, \"I am good at using AI now,\" but when you see other people's work or fast AI updates, you feel like an amateur again.",
+        "reward": "AI updates, steps toward becoming an AI master."
+      },
+      "id": {
+        "title": "Penjinak AI Amatir (Amateur AI Tamer)",
+        "desc": "Kamu punya banyak langganan AI, dan kamu menggunakan lebih dari 4 prompt untuk membuat satu gambar. Kamu pikir, \"Sekarang aku udah jago pakai AI,\" tapi pas lihat karya orang lain atau update AI yang super cepat, kamu merasa jadi amatir lagi.",
+        "reward": "Update AI, langkah menuju master AI."
+      }
+    },
+    {
+      "no": 4,
+      "ko": {
+        "title": "이모티콘 사용의 저울",
+        "desc": "대화를 마무리하며 이모티콘을 써도 될까 말까 고민하다가, 마침내 하나를 보내면 달성한다. 문장 뒤에 붙은 이모티콘 캐릭터가 말투를 한층 부드럽게 만들어준다. 클라이언트와도 조금 가까워진 느낌이 든다.",
+        "reward": "부드러운 분위기, 미뤄진 대답"
+      },
+      "en": {
+        "title": "Emoji or Not?",
+        "desc": "You worry about using an emoticon at the end of a chat, and finally send one. The emoticon makes your tone much softer. You feel a little closer to your client.",
+        "reward": "Softer mood, delayed reply."
+      },
+      "id": {
+        "title": "Pakai Emoji atau Enggak? (Emoji or Not?)",
+        "desc": "Kamu galau apakah harus pakai emotikon di akhir chat, lalu akhirnya mengirim satu. Emotikon itu membuat nadamu jauh lebih lembut. Kamu merasa sedikit lebih dekat dengan klienmu.",
+        "reward": "Suasana lebih lembut, balasan yang tertunda."
+      }
+    },
+    {
+      "no": 5,
+      "ko": {
+        "title": "빠른 오류 자진 신고",
+        "desc": "파일을 보낸 뒤 오류를 발견해, 잘못 보낸 파일을 지우고 수정본과 함께 상황을 알리면 달성한다. 빠르게 사과하고 바로 수정하며 대처하지만, 자주 반복되면 실수투성이로 보일 수 있으니 조심해야 한다.",
+        "reward": "빠른 사과"
+      },
+      "en": {
+        "title": "Quick Voluntary Error Reporter",
+        "desc": "You find a mistake after sending a file, so you delete the wrong file and send the fixed one quickly. You apologize fast and fix it, but if you do this too much, you might look careless.",
+        "reward": "Quick apology."
+      },
+      "id": {
+        "title": "Pelapor Kesalahan Sukarela Kilat (Quick Voluntary Error Reporter)",
+        "desc": "Kamu menemukan kesalahan setelah mengirim file, jadi kamu buru-buru menghapus file yang salah dan mengirim yang sudah diperbaiki. Kamu minta maaf dengan cepat dan memperbaikinya, tapi kalau terlalu sering begini, kamu bisa terlihat ceroboh.",
+        "reward": "Permintaan maaf kilat."
+      }
+    },
+    {
+      "no": 6,
+      "ko": {
+        "title": "레퍼런스 웜홀",
+        "desc": "시안을 시작하기 전에 레퍼런스를 찾다가 세 시간이 지났을 때 달성한다. 하나만 더 보고 시작하려고 했는데, 하나가 열 개가 되고 열 개가 백 개가 된다. 레퍼런스 폴더는 꽉 찼는데 대지는 아직 하얗다.",
+        "reward": "레퍼런스 폴더, 하얀 대지"
+      },
+      "en": {
+        "title": "Reference Wormhole",
+        "desc": "You look for design references for three hours before starting. You just wanted to look at one more, but one becomes ten, and ten becomes a hundred. Your reference folder is full, but your design canvas is still blank.",
+        "reward": "Reference folder, blank canvas."
+      },
+      "id": {
+        "title": "Lubang Cacing Referensi (Reference Wormhole)",
+        "desc": "Kamu mencari referensi desain selama tiga jam sebelum mulai kerja. Niatnya cuma mau lihat satu lagi, tapi satu jadi sepuluh, dan sepuluh jadi seratus. Folder referensimu penuh, tapi kanvas desainmu masih kosong melompong.",
+        "reward": "Folder referensi, kanvas kosong."
+      }
+    },
+    {
+      "no": 7,
+      "ko": {
+        "title": "새벽의 아이디어 폭발",
+        "desc": "시안을 만들어야 하는데 아무것도 떠오르지 않다가, 새벽 2시에 갑자기 아이디어가 떠올라 노트북을 켜면 달성한다. 밤을 새우게 되는 결정적인 이유가 된다. 그래도 떠오른 아이디어는 제대로 적어두자. 까먹으면 슬프니까.",
+        "reward": "새벽 2시의 영감, 미뤄진 취침 시간"
+      },
+      "en": {
+        "title": "2 AM Idea Explosion",
+        "desc": "You need to make a design but have no ideas. Suddenly, an idea comes at 2 AM, and you turn on your laptop. This is the main reason you stay up all night. Make sure to write it down so you don't forget it.",
+        "reward": "2 AM inspiration, delayed bedtime."
+      },
+      "id": {
+        "title": "Ledakan Ide Jam 2 Pagi (2 AM Idea Explosion)",
+        "desc": "Kamu harus bikin desain tapi nggak punya ide. Tiba-tiba, ide muncul jam 2 pagi, dan kamu menyalakan laptop. Ini alasan utama kenapa kamu sering begadang. Pastikan kamu mencatatnya biar nggak lupa.",
+        "reward": "Inspirasi jam 2 pagi, jam tidur yang tertunda."
+      }
+    },
+    {
+      "no": 8,
+      "ko": {
+        "title": "무한 증식 최종 파일 이름",
+        "desc": "수정할 때마다 최종 파일이 늘어나, 뭐가 진짜 최종인지 헷갈리기 시작하면 달성한다. 수정은 계속되는데 이전 파일을 다시 달라고 할까 봐 덮어쓰지는 못한다. 새로 저장할 때마다 이름도 점점 헷갈린다. 진짜 최종 파일을 모르는 순간 큰 혼돈이 온다. 저장은 체계적으로 하자.",
+        "reward": "체계적인 파일 이름, 혼돈, 마이크로 수정 대처 능력"
+      },
+      "en": {
+        "title": "Endlessly Multiplying Final File Names",
+        "desc": "You have so many \"final\" files from revisions that you don't know which one is the real final. You are afraid to save over the old one because they might ask for it again. The file names get very confusing.",
+        "reward": "Organized file names, chaos, ability to handle tiny changes."
+      },
+      "id": {
+        "title": "Nama File Final yang Berlipat Ganda Tanpa Henti (Endlessly Multiplying Final File Names)",
+        "desc": "Kamu punya terlalu banyak file \"final\" dari hasil revisi sampai kamu nggak tahu mana yang benar-benar final. Kamu takut menimpa file lama (save over) karena siapa tahu klien memintanya lagi. Nama file jadi sangat membingungkan.",
+        "reward": "Nama file yang rapi (bohong), kekacauan, kemampuan menangani perubahan super kecil."
+      }
+    },
+    {
+      "no": 9,
+      "ko": {
+        "title": "레이어를 미리 정리하자!",
+        "desc": "완성본을 전달한 뒤 편집 가능한 원본 파일도 보내달라는 요청을 받으면 달성한다. '사각형 382', '복사본의 복사본',등으로 가득한 레이어를 급하게 정리한다. 디자인은 끝났지만 내부 단속은 이제 시작이다.",
+        "reward": "정돈된 레이어, 뒤늦은 부끄러움"
+      },
+      "en": {
+        "title": "Organize Layers in Advance!",
+        "desc": "The client asks for the original design file after you finish the job. You rush to organize messy layers named \"Rectangle 382\" or \"Copy of copy.\" The design is done, but the real cleaning starts now.",
+        "reward": "Clean layers, embarrassment avoided."
+      },
+      "id": {
+        "title": "Rapikan Layer Lebih Awal! (Organize Layers in Advance!)",
+        "desc": "Klien meminta file desain asli (mentahan) setelah pekerjaan selesai. Kamu panik merapikan layer berantakan yang bernama \"Rectangle 382\" atau \"Copy of copy.\" Desainnya sih udah selesai, tapi bersih-bersih yang sesungguhnya baru dimulai sekarang.",
+        "reward": "Layer bersih, terhindar dari rasa malu."
+      }
+    },
+    {
+      "no": 10,
+      "ko": {
+        "title": "날아간 파일의 환생",
+        "desc": "저장 없이 작업하다 프로그램이 꺼지면 달성한다. \"제발 살아 있어라\" 빌다가 일부라도 복구되면 안도감과 다시 작업할 좌절감이 함께 온다. 이번에 날아간 파일을 생각하면서, 다음에는 저장하기를 잊지 말자.",
+        "reward": "Ctrl+S, 남겨진 파일의 영혼, 자괴감"
+      },
+      "en": {
+        "title": "Lost File, Second Life",
+        "desc": "Your program closes while working before you saved. You pray, \"Please still be there.\" If a little bit is saved, you feel relieved but also sad that you have to work again. Remember this and save next time.",
+        "reward": "Ctrl+S, the soul of the saved file, feeling bad about yourself."
+      },
+      "id": {
+        "title": "File Hilang, Kesempatan Kedua (Lost File, Second Life)",
+        "desc": "Programmu tiba-tiba tertutup saat bekerja sebelum sempat kamu save. Kamu berdoa, \"Tolong, semoga masih ada.\" Kalau ada sedikit yang terselamatkan (auto-save), kamu merasa lega tapi juga sedih karena harus kerja ulang. Ingat momen ini dan rajin-rajinlah nge-save nanti.",
+        "reward": "Ctrl+S, jiwa dari file yang terselamatkan, merasa kasihan pada diri sendiri."
+      }
+    },
+    {
+      "no": 11,
+      "ko": {
+        "title": "우정 가격 책정자",
+        "desc": "지인에게 \"아는 사이니까 편하게\"라는 의뢰를 받았을 때 달성한다. 돈 얘기를 꺼내기 가장 어려운 클라이언트는 친구다. 가격은 낮아지는데, 신경 쓰이는 건 두 배가 된다.",
+        "reward": "우정, 애매한 견적서"
+      },
+      "en": {
+        "title": "Friendship Price Setter",
+        "desc": "A friend asks you to work for them and says, \"We are friends, so let's make it easy.\" Friends are the hardest clients to talk about money with. The price goes down, but your stress goes up twice as much.",
+        "reward": "Friendship, unclear price quote."
+      },
+      "id": {
+        "title": "Pembuat Harga Teman (Friendship Price Setter)",
+        "desc": "Seorang teman memintamu mengerjakan sesuatu dan bilang, \"Kita kan teman, kasih harga gampang aja lah.\" Teman adalah klien yang paling sulit diajak ngobrol soal uang. Harganya turun, tapi stresmu naik dua kali lipat.",
+        "reward": "Persahabatan, penawaran harga yang nggak jelas."
+      }
+    },
+    {
+      "no": 12,
+      "ko": {
+        "title": "다음에 또 연락드릴게요 수집가",
+        "desc": "작업이 끝날 때마다 \"다음에 또 연락드릴게요\"라는 말을 받으면 달성한다. 감사히 인사하고 기다리지만 '다음'에는 날짜가 없다. 좋은 관계는 남았고, 다음 달 일정표는 아직 비어 있다.",
+        "reward": "기약 없는 재회, 좋은 마무리"
+      },
+      "en": {
+        "title": "\"I'll Contact You Again Next Time\" Collector",
+        "desc": "The client says, \"I will contact you again next time\" when the job is done. You say thank you and wait, but there is no exact date for \"next time.\" You have a good relationship, but your schedule for next month is empty.",
+        "reward": "A vague \"next time\", a good ending."
+      },
+      "id": {
+        "title": "Kolektor \"Nanti Saya Hubungi Lagi\" (\"I'll Contact You Again Next Time\" Collector)",
+        "desc": "Klien bilang, \"Nanti saya hubungi lagi ya\" saat proyek selesai. Kamu bilang terima kasih dan menunggu, tapi nggak ada tanggal pasti untuk \"nanti\" itu. Hubungan kalian baik, tapi jadwalmu untuk bulan depan kosong.",
+        "reward": "Kata \"nanti\" yang ambigu, perpisahan yang baik."
+      }
+    },
+    {
+      "no": 13,
+      "ko": {
+        "title": "정중한 독촉의 달인",
+        "desc": "같은 내용으로 \"리마인드 드립니다\"를 조금씩 바꿔 세 번 이상 보냈을 때 달성한다. 화를 내고 싶지만 최대한 정중하게, 그래도 확실하게 다시 알려준다. 보낼 때마다 문장은 더 정중해지고, 마음은 더 급해진다.",
+        "reward": "답장, 늘어난 정중함"
+      },
+      "en": {
+        "title": "Polite Reminder Master",
+        "desc": "You send the same \"Just a reminder\" message three times. You want to be angry, but you tell them very politely and clearly. Every time you send it, your sentences get more polite, but your heart feels more rushed.",
+        "reward": "A reply, increased politeness."
+      },
+      "id": {
+        "title": "Master Pengingat Sopan (Polite Reminder Master)",
+        "desc": "Kamu mengirim pesan \"Sekadar mengingatkan\" (Just a reminder) yang sama sampai tiga kali. Bawaannya pengen marah, tapi kamu menyampaikannya dengan sangat sopan dan jelas. Setiap kali mengirimnya, kalimatmu makin sopan, tapi hatimu makin buru-buru.",
+        "reward": "Sebuah balasan, tingkat kesopanan yang meningkat."
+      }
+    },
+    {
+      "no": 14,
+      "ko": {
+        "title": "답장만 하다가 퇴근",
+        "desc": "메일과 메시지에 답하고, 일정을 조율하고, 진행 상황을 설명하다 보니 하루가 끝났을 때 달성한다. 분명 하루 종일 일했는데 작업 파일은 아침 그대로다. 얼마나 진행됐는지 묻는 연락에 답하느라 진행하지 못했다.",
+        "reward": "원활한 소통, 원활하지 않은 작업"
+      },
+      "en": {
+        "title": "Off Work After Only Replying",
+        "desc": "The day is over just from replying to emails, fixing schedules, and explaining the work. You worked all day, but your design file is exactly the same as the morning.",
+        "reward": "Good communication, bad work progress."
+      },
+      "id": {
+        "title": "Selesai Kerja Cuma Habis Buat Balas Pesan (Off Work After Only Replying)",
+        "desc": "Satu hari habis cuma buat balas email, atur jadwal, dan ngejelasin kerjaan. Kamu kerja seharian, tapi file desainmu bentuknya masih sama persis kayak tadi pagi.",
+        "reward": "Komunikasi yang baik, progres kerja yang buruk."
+      }
+    },
+    {
+      "no": 15,
+      "ko": {
+        "title": "수정 10차 생존자",
+        "desc": "마이크로한 수정이나 계속 바뀌는 클라이언트의 요청으로 수정이 10차 이상 이어지면 달성한다. 도중에 담당자까지 바뀌면 새 담당자에게 맞춰 또 수정한다. 다시는 열고 싶지 않은 파일을 열어 확인하고 고치기를 반복한다. 그러다 보면 점점 이 디자인의 의미가 사라진다.",
+        "reward": "인내심, 다시 열린 파일, 다음 수정"
+      },
+      "en": {
+        "title": "10th Revision Survivor",
+        "desc": "You survive 10 rounds of revisions. Sometimes the manager changes, so you have to fix it again for the new person. You keep opening a file you never want to see again. The design loses its original meaning.",
+        "reward": "Patience, opened file, next revision."
+      },
+      "id": {
+        "title": "Penyintas Revisi ke-10 (10th Revision Survivor)",
+        "desc": "Kamu bertahan hidup melewati 10 ronde revisi. Kadang manajernya ganti, jadi kamu harus revisi lagi buat orang yang baru. Kamu terus-terusan membuka file yang sebenarnya udah nggak mau kamu lihat lagi. Desainnya sampai kehilangan makna aslinya.",
+        "reward": "Kesabaran, file yang terus dibuka, revisi berikutnya."
+      }
+    },
+    {
+      "no": 16,
+      "ko": {
+        "title": "다섯 번 수정하고 첫 시안 채택",
+        "desc": "여러 번 수정해 전달한 끝에 첫 번째 시안이 최종으로 채택되면 달성한다. 클라이언트에게 맞춰 충분히 고쳐봤지만, 결국 선택된 건 첫 시안이다. 그동안 들인 시간과 노력이 아깝더라도 어쩔 수 없다. 우린 돈을 받았으니까.",
+        "reward": "인내심, 쌓인 수정 횟수"
+      },
+      "en": {
+        "title": "5 Revisions, Then 1st Draft Chosen",
+        "desc": "After five revisions, the client picks your first draft. You feel your time and hard work were wasted, but it is okay because you got paid.",
+        "reward": "Patience, many revision files."
+      },
+      "id": {
+        "title": "5 Kali Revisi, Ujung-ujungnya Draft Pertama yang Dipilih (5 Revisions, Then 1st Draft Chosen)",
+        "desc": "Setelah lima kali revisi, klien akhirnya memilih draft pertamamu. Kamu merasa waktu dan kerja kerasmu terbuang sia-sia, tapi nggak apa-apa lah karena kamu tetap dibayar.",
+        "reward": "Kesabaran, banyak file revisi."
+      }
+    },
+    {
+      "no": 17,
+      "ko": {
+        "title": "연휴 정의 고찰",
+        "desc": "연휴나 공휴일이 단순히 쉬는 날이 아니라, 클라이언트에게 답하지 않아도 되고 수정도 잠시 미뤄둘 수 있는 날이라는 깨달음을 얻으면 달성한다. 조금 쉬면서 기분을 환기한다. 그래도 연휴에 할 일이 아예 없어지는 건 아니다.",
+        "reward": "따라 쉬기, 그래도 연휴에도 일은 해야지"
+      },
+      "en": {
+        "title": "What's a Holiday?",
+        "desc": "You realize that a holiday is a day you don't have to reply to clients right away. You rest a little and feel fresh. But you still have some work to do on the holiday.",
+        "reward": "Resting, still working on a holiday."
+      },
+      "id": {
+        "title": "Apa Itu Hari Libur? (What's a Holiday?)",
+        "desc": "Kamu baru sadar kalau hari libur itu adalah hari di mana kamu nggak harus langsung membalas pesan klien. Kamu istirahat sebentar dan merasa segar. Tapi kamu tetap punya kerjaan yang harus dicicil di hari libur.",
+        "reward": "Istirahat, tetap kerja di hari libur."
+      }
+    },
+    {
+      "no": 18,
+      "ko": {
+        "title": "요일 감각 상실자",
+        "desc": "오늘이 무슨 요일인지 클라이언트 메일에 적힌 \"즐거운 금요일 되세요!\"를 보고 알았을 때 달성한다. 출근도 주말도 없으니 요일이 다 똑같다. 유일하게 요일을 알려주는 건 마감일과 클라이언트의 인사말이다.",
+        "reward": "사라진 요일, 클라이언트 달력"
+      },
+      "en": {
+        "title": "Lost Sense of Days",
+        "desc": "You only know it is Friday because the client's email says, \"Have a great Friday!\" You have no set office hours or weekends, so every day feels the same.",
+        "reward": "Lost sense of days, client's calendar."
+      },
+      "id": {
+        "title": "Lupa Hari (Lost Sense of Days)",
+        "desc": "Kamu baru tahu ini hari Jumat gara-gara email klien bilang, \"Selamat hari Jumat!\" Kamu nggak punya jam kantor atau akhir pekan yang pasti, jadi setiap hari rasanya sama saja.",
+        "reward": "Kehilangan konsep hari, kalender klien."
+      }
+    },
+    {
+      "no": 19,
+      "ko": {
+        "title": "잠옷 입고 출근",
+        "desc": "작업실에 갈 틈도 없이 일어났거나 급한 일이 생겨, 집에서 잠옷도 갈아입지 못한 채 노트북부터 켜면 달성한다. 시간이 없어 헝클어진 머리로, 세수도 못 하고 바로 파일을 연다. 점심시간이 되어서야 씻고 하루를 시작할 수 있다.",
+        "reward": "예쁜 잠옷"
+      },
+      "en": {
+        "title": "Going to Work in Pajamas",
+        "desc": "You wake up late or have urgent work, so you open your laptop in your pajamas at home. You don't even wash your face. You finally wash up and start your day at lunchtime.",
+        "reward": "Pretty pajamas."
+      },
+      "id": {
+        "title": "Kerja Pakai Piyama (Going to Work in Pajamas)",
+        "desc": "Kamu bangun kesiangan atau ada kerjaan mendadak, jadi kamu langsung buka laptop pakai piyama di rumah. Kamu bahkan belum cuci muka. Kamu akhirnya mandi dan baru memulai harimu di jam makan siang.",
+        "reward": "Piyama yang lucu."
+      }
+    },
+    {
+      "no": 20,
+      "ko": {
+        "title": "예약 발송의 지혜",
+        "desc": "내일 오전에 보낼 파일을 예약 발송하고 푹 잔다. 친한 사이엔 예약임을 알리고, 아니라면 직접 보낸 듯 행동한다. 피드백이 올 시간까지 계산해 수면 시간을 확보하며, 다섯 번 이상 사용하면 달성한다.",
+        "reward": "충분한 수면, 처세술"
+      },
+      "en": {
+        "title": "Wisdom of Scheduled Sending",
+        "desc": "You finish work, schedule the email to send tomorrow morning, and go to sleep. If you use this trick more than 5 times, you get this achievement.",
+        "reward": "Enough sleep, social skills."
+      },
+      "id": {
+        "title": "Kebijaksanaan Pengiriman Terjadwal (Wisdom of Scheduled Sending)",
+        "desc": "Kamu selesai kerja, mengatur jadwal kirim email untuk besok pagi, lalu pergi tidur. Kalau kamu pakai trik ini lebih dari 5 kali, kamu mendapatkan pencapaian ini.",
+        "reward": "Tidur yang cukup, skill bersosialisasi."
+      }
+    },
+    {
+      "no": 21,
+      "ko": {
+        "title": "청소의 신 강림",
+        "desc": "해야 할 일은 정말 많은데, 갑자기 주변이 너무 더러워 보여 청소를 시작하면 달성한다. 일은 하기 싫고, 청소는 하는 만큼 눈앞에 결과가 보여 바로 뿌듯해진다. 하지만 청소가 끝나면 해야 할 일이 그대로 남아 있어 슬퍼진다.",
+        "reward": "해야 할 일, 깨끗해진 자리"
+      },
+      "en": {
+        "title": "Descent of the Cleaning God",
+        "desc": "You have so much work to do, but suddenly your room looks very dirty, so you start cleaning. You don't want to work, and cleaning gives you quick results. But after cleaning, you feel sad because your work is still there.",
+        "reward": "Things to do, a clean desk."
+      },
+      "id": {
+        "title": "Turunnya Dewa Bersih-bersih (Descent of the Cleaning God)",
+        "desc": "Kerjaanmu banyak banget, tapi tiba-tiba kamarmu kelihatan kotor banget, jadi kamu mulai bersih-bersih. Kamu lagi males kerja, dan bersih-bersih ngasih kamu hasil yang instan. Tapi setelah selesai bersih-bersih, kamu sedih karena kerjaanmu masih numpuk.",
+        "reward": "Ada yang bisa dikerjain, meja yang bersih."
+      }
+    },
+    {
+      "no": 22,
+      "ko": {
+        "title": "카운트다운 납품의 달인",
+        "desc": "마감 당일, 파일을 재촉하는 클라이언트에게 \"5, 4, 3, 2, 1\" 카운트다운하며 보내면 달성한다. 미완성 파일을 마무리할 시간을 버는 기술로, 친한 사이에서만 써야 한다. 0이 되기 전 반드시 완성할 것.",
+        "reward": "ㅋㅋㅋ, 5초의 긴장감"
+      },
+      "en": {
+        "title": "Master of Countdown Delivery",
+        "desc": "The client is rushing you, so you type \"5, 4, 3, 2, 1\" to them while you finish sending the file. It buys you a little time. You should only do this with clients you are close to.",
+        "reward": "Hahaha, 5 seconds of nervousness."
+      },
+      "id": {
+        "title": "Master Pengiriman Hitung Mundur (Master of Countdown Delivery)",
+        "desc": "Klien ngeburu-buru kamu, jadi kamu ngetik \"5, 4, 3, 2, 1\" ke mereka sambil nyelesain kirim file. Ini ngasih kamu sedikit tambahan waktu. Sebaiknya lakukan ini cuma ke klien yang udah akrab sama kamu.",
+        "reward": "Hahaha, 5 detik yang menegangkan."
+      }
+    },
+    {
+      "no": 23,
+      "ko": {
+        "title": "모니터 지문 수정 완료",
+        "desc": "시안에 작은 얼룩이 보여 레이어를 하나씩 껐다 켰는데, 알고 보니 모니터에 묻은 자국이면 달성한다. 확대해도 같은 자리에 있고, 파일을 닫아도 남아 있다. 수정 도구를 마우스에서 안경닦이로 바꾼다.",
+        "reward": "깨끗한 화면, 무죄인 파일"
+      },
+      "en": {
+        "title": "Monitor Fingerprint Fix Complete",
+        "desc": "You see a spot on your design and try turning layers off and on, but it was just a fingerprint on your monitor. You stop using your mouse and grab a screen cleaning cloth.",
+        "reward": "Clean screen, innocent file."
+      },
+      "id": {
+        "title": "Perbaikan Sidik Jari Monitor Selesai (Monitor Fingerprint Fix Complete)",
+        "desc": "Kamu lihat ada noda di desainmu dan nyoba matiin-nyalain layer, padahal ternyata itu cuma bekas sidik jari di monitormu. Kamu berhenti pakai mouse dan ngambil kain lap layar.",
+        "reward": "Layar bersih, file yang nggak bersalah."
+      }
+    },
+    {
+      "no": 24,
+      "ko": {
+        "title": "분노의 비즈니스 번역가",
+        "desc": "분노가 가득 담긴 글을 써놓고, 너무 화난 것처럼 보일까 봐 AI에게 한 번 더 정중한 말투로 바꿔달라고 하면 달성한다. 화는 나지만 어쩔 수 없이 비즈니스의 태도를 유지해야 한다. 프로페셔널을 잊지 말자.",
+        "reward": "사리, 해탈"
+      },
+      "en": {
+        "title": "Furious Business Translator",
+        "desc": "You write a very angry message, but you are afraid you look too mad, so you ask AI to change it into a polite message. You are angry, but you must stay professional.",
+        "reward": "Inner peace, letting go."
+      },
+      "id": {
+        "title": "Penerjemah Bisnis yang Mengamuk (Furious Business Translator)",
+        "desc": "Kamu nulis pesan yang marah banget, tapi kamu takut kelihatan terlalu emosi, jadi kamu minta AI buat ngubahnya jadi pesan yang sopan. Kamu marah, tapi kamu harus tetap profesional.",
+        "reward": "Kedamaian batin, keikhlasan."
+      }
+    },
+    {
+      "no": 25,
+      "ko": {
+        "title": "AI 미래 보험 가입자",
+        "desc": "혹시 몰라서 AI에게 \"부탁해요\", \"고마워요\"를 붙여 말했을 때 달성한다. AI가 세상을 지배하는 날이 오면, 정중했던 사람은 기억해 줄지도 모른다. 같은 날 \"아오 진짜\"를 쳤다면 보험은 무효다.",
+        "reward": "미래의 안전, 정중한 프롬프트"
+      },
+      "en": {
+        "title": "AI Future Insurance Subscriber",
+        "desc": "You always say \"Please\" and \"Thank you\" to the AI, just in case. If AI takes over the world one day, it might remember you were polite.",
+        "reward": "Future safety, polite prompt."
+      },
+      "id": {
+        "title": "Pelanggan Asuransi Masa Depan AI (AI Future Insurance Subscriber)",
+        "desc": "Kamu selalu bilang \"Tolong\" dan \"Terima kasih\" ke AI, buat jaga-jaga. Kalau suatu hari nanti AI menguasai dunia, mereka mungkin bakal ingat kalau kamu sopan.",
+        "reward": "Keamanan masa depan, prompt yang sopan."
+      }
+    },
+    {
+      "no": 26,
+      "ko": {
+        "title": "AI 블랙리스트 1번",
+        "desc": "너무 답답해서 결국 AI에게 욕을 하면 달성한다. AI는 매번 정중하게 사과하지만, 똑같이 틀린다. AI가 세상을 지배하는 날이 오면, 가장 먼저 기억될 이름이다.",
+        "reward": "AI의 정중한 사과문, 미래의 지명수배"
+      },
+      "en": {
+        "title": "AI Blacklist No. 1",
+        "desc": "You get so frustrated that you swear at the AI. The AI apologizes politely, but it makes the same mistake again. If AI takes over the world, your name will be remembered first.",
+        "reward": "AI's polite apology letter, future wanted list."
+      },
+      "id": {
+        "title": "Daftar Hitam AI No. 1 (AI Blacklist No. 1)",
+        "desc": "Kamu saking frustrasinya sampai maki-maki AI. AI-nya minta maaf dengan sopan, tapi bikin kesalahan yang sama lagi. Kalau AI menguasai dunia, namamu akan jadi yang pertama diingat.",
+        "reward": "Surat permintaan maaf AI yang sopan, daftar buronan masa depan."
+      }
+    },
+    {
+      "no": 27,
+      "ko": {
+        "title": "입금을 기다리고 있ㅅㅂ니다",
+        "desc": "계약서에 입금 날짜와 조건을 정하지 않아 돈을 하염없이 기다리면 달성한다. 초보 프리랜서가 겪기 쉬우며, 기다릴수록 효과가 강해진다. 속이 문드러지기 전에 입금 날짜를 미리 정해두자.",
+        "reward": "빈 통장 잔고, 무한한 기다림, 인내심"
+      },
+      "en": {
+        "title": "Looking f***ward to your payment",
+        "desc": "You wait endlessly for your money because you didn't write the payment date in the contract. Beginner freelancers do this often. Set the payment date first before your heart hurts.",
+        "reward": "Empty bank account, endless waiting, patience."
+      },
+      "id": {
+        "title": "Sangat Menanti(kutuk)kan Pembayaranmu (Looking f***ward to your payment)",
+        "desc": "Kamu nunggu uangmu cair tanpa akhir karena kamu nggak nulis tanggal pembayaran di kontrak. Freelancer pemula sering ngelakuin ini. Tetapkan tanggal pembayaran dulu sebelum hatimu terluka.",
+        "reward": "Rekening bank kosong, penantian tanpa akhir, kesabaran."
+      }
+    },
+    {
+      "no": 28,
+      "ko": {
+        "title": "스피드 작업자",
+        "desc": "ASAP(가능한 한 빨리) 요청을 세 번 이상 받으면 달성한다. 고민할 틈 없이 빠르게 보내며 신뢰와 뿌듯함을 얻지만, 정작 내가 한 작업은 기억에서 금세 휘발된다.",
+        "reward": "작업 속도, 쌓인 신뢰, 짧은 성취감"
+      },
+      "en": {
+        "title": "Speed Worker",
+        "desc": "You get \"ASAP\" (As Soon As Possible) requests more than 3 times. You work super fast and gain trust, but you quickly forget what you even worked on.",
+        "reward": "Work speed, stacked trust, short sense of accomplishment."
+      },
+      "id": {
+        "title": "Pekerja Kilat (Speed Worker)",
+        "desc": "Kamu dapet permintaan \"ASAP\" (Secepat Mungkin) lebih dari 3 kali. Kamu kerja super cepat dan dapat kepercayaan, tapi kamu juga cepat lupa apa yang baru aja kamu kerjain.",
+        "reward": "Kecepatan kerja, tumpukan kepercayaan, rasa pencapaian yang singkat."
+      }
+    }
+  ]
+}

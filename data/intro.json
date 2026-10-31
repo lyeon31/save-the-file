@@ -1,0 +1,117 @@
+{
+  "title": "Save The File ★1",
+  "author": "Diskité",
+  "intro": {
+    "ko": [
+      "디자인은 할 줄 알았지만, 프리랜서가 어떻게 굴러가는지는 아무도 알려주지 않았다.",
+      "좋아하는 휴대용 게임처럼, 작은 튜토리얼만 있고 스토리는 직접 깨야 했다.",
+      "『Save The File』은 프리랜서가 되어 보낸 첫 1년의 경험을 담은 책이다.",
+      "그동안 자주 쓰게 된 말, 손에 익은 아이템과 스킬, 얼떨결에 달성한 업적을 게임 도감처럼 모았다.",
+      "정답이 아닌 \"나는 이렇게 깨봤다\"는 플레이 기록을 SAVE 해두었다."
+    ],
+    "en": [
+      "I knew how to design, but no one ever told me how freelancing actually works.",
+      "Like my favorite handheld games, there was only a short tutorial, and I had to clear the story on my own.",
+      "『Save The File』 is a book about my first year as a freelancer.",
+      "Like a game encyclopedia, it collects the words I kept using, the items and skills I got used to, and the achievements I unlocked almost by accident.",
+      "It's not a guide with the right answers. It's a play log of \"this is how I cleared it,\" and I hit SAVE."
+    ],
+    "id": [
+      "Aku tahu cara mendesain, tapi tidak ada yang pernah memberitahuku bagaimana dunia freelance sebenarnya berjalan.",
+      "Seperti game genggam favoritku, hanya ada tutorial singkat, dan ceritanya harus kutamatkan sendiri.",
+      "『Save The File』 adalah buku tentang pengalaman tahun pertamaku sebagai freelancer.",
+      "Kata-kata yang jadi sering kupakai, item dan skill yang makin akrab di tangan, dan pencapaian yang kuraih tanpa sengaja, semuanya kukumpulkan seperti ensiklopedia game.",
+      "Ini bukan kunci jawaban, melainkan catatan main \"beginilah caraku menamatkannya\" yang sudah aku SAVE."
+    ]
+  },
+  "short": {
+    "ko": [
+      "프리랜서 1년은 튜토리얼 없는 게임이었다.",
+      "자주 쓰는 말, 손에 익은 아이템, 얼떨결에 얻은 업적을 모은 프리랜서 게임 도감."
+    ],
+    "en": null,
+    "id": null
+  },
+  "books": [
+    {
+      "id": "keyword",
+      "no": 1,
+      "title": "KEYWORD HUNT",
+      "localTitle": {
+        "ko": "KEYWORD HUNT",
+        "en": "KEYWORD HUNT",
+        "id": "KEYWORD HUNT"
+      },
+      "subtitle": {
+        "ko": "자주 사용하게 되는 말들",
+        "en": "Freelancer Word Dictionary",
+        "id": "Kamus Kata Freelancer"
+      },
+      "desc": {
+        "ko": "프리랜서로 일하며 자주 쓰게 된 말과 그 안에 숨은 뜻 (28개)",
+        "en": null,
+        "id": null
+      },
+      "color": "하늘색"
+    },
+    {
+      "id": "item",
+      "no": 2,
+      "title": "ITEM GET!",
+      "localTitle": {
+        "ko": "ITEM GET!",
+        "en": "ITEM GET!",
+        "id": "ITEM DIDAPATKAN!"
+      },
+      "subtitle": {
+        "ko": "프리랜서 스킬·아이템",
+        "en": "Freelancer Skill & Item Dictionary",
+        "id": "Kamus Skill & Item Freelancer"
+      },
+      "desc": {
+        "ko": "프리랜서가 쓰는 장비, 소모품, 스킬, 상태 효과, 서포트의 효과와 부작용 (28개)",
+        "en": null,
+        "id": null
+      },
+      "color": "민트"
+    },
+    {
+      "id": "youdidit",
+      "no": 3,
+      "title": "YOU DID IT!",
+      "localTitle": {
+        "ko": "YOU DID IT!",
+        "en": "YOU DID IT!",
+        "id": "KAMU BERHASIL! (YOU DID IT!)"
+      },
+      "subtitle": {
+        "ko": "업적을 달성해보자",
+        "en": "Freelancer Achievement Dictionary",
+        "id": "Kamus Pencapaian Freelancer"
+      },
+      "desc": {
+        "ko": "1년 동안 얻은 칭호와 업적 보상 (28개)",
+        "en": null,
+        "id": null
+      },
+      "color": "핑크"
+    }
+  ],
+  "meta": {
+    "ko": [
+      "※ 세 권의 첫 글자 K · I · Y",
+      "판형: 74 × 74mm, 3권",
+      "케이스: 휴대용 게임기 모양 케이스 (3D 프린트)"
+    ],
+    "en": [
+      "※ The first letters of the three books: K · I · Y",
+      "Size: 74 × 74 mm, 3 volumes",
+      "Case: handheld game console–shaped case (3D printed)"
+    ],
+    "id": [
+      "※ Huruf pertama ketiga buku: K · I · Y",
+      "Ukuran: 74 × 74 mm, 3 jilid",
+      "Casing: berbentuk konsol game genggam (cetak 3D)"
+    ]
+  }
+}

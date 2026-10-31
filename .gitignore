@@ -1,0 +1,7 @@
+# 사이트에 필요한 파일만 올린다 (원본 PDF · txt · PNG 원본은 올리지 않음)
+/00_전체 소개/
+/01_KEYWORD HUNT/
+/02_ITEM GET/
+/03_YOU DID IT/
+/PNG/
+.DS_Store

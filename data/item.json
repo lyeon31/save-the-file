@@ -1,0 +1,3088 @@
+{
+  "id": "item",
+  "categories": {
+    "order": [
+      "gear",
+      "consumable",
+      "skill",
+      "status",
+      "support"
+    ],
+    "ko": {
+      "gear": "장비",
+      "consumable": "소모품",
+      "skill": "스킬",
+      "status": "상태 효과",
+      "support": "서포트"
+    },
+    "en": {
+      "gear": "Gear",
+      "consumable": "Consumable",
+      "skill": "Skill",
+      "status": "Status",
+      "support": "Support"
+    },
+    "id": {
+      "gear": "Gear",
+      "consumable": "Consumable",
+      "skill": "Skill",
+      "status": "Status",
+      "support": "Support"
+    }
+  },
+  "intro": {
+    "ko": [
+      "일을 하다 보면 반복해서 마주치는 상황들이 있다.",
+      "가만히 들여다보면 게임 속 스킬이나 아이템을 닮았다.",
+      "어떤 것은 일을 돕고, 어떤 것은 지갑이나 멘탈을 공격한다. 함께 쓰면 효과가 커지기도, 서로의 효과를 깎아 먹기도 한다.",
+      "",
+      "앞으로 어떤 스킬을 얻고 어떤 아이템을 가지게 될지 궁금해진다.",
+      "사실 프리랜서 하면서 이렇게 많은 아이템이 필요한지도 정리하면서 알게 되었다."
+    ],
+    "en": [
+      "Some situations come up again and again at work.",
+      "If you look closely, they're a lot like skills or items in a game.",
+      "Some help you get things done. Others attack your wallet or wear you down.",
+      "Some work better together, while others weaken each other's effects.",
+      "It makes me wonder what skills I'll learn and what items I'll collect next.",
+      "In fact, it wasn't until I put this list together that I realized how many items I need as a freelancer."
+    ],
+    "id": [
+      "Beberapa situasi terus muncul berulang kali saat bekerja.",
+      "Kalau diperhatikan lebih dekat, situasi-situasi ini sangat mirip dengan skill atau item di dalam game.",
+      "Ada yang membantu menyelesaikan pekerjaan. Ada juga yang menyerang dompet atau membuatmu kelelahan.",
+      "Beberapa berfungsi lebih baik saat digabungkan, sementara yang lain saling melemahkan efeknya.",
+      "Ini membuatku penasaran, skill apa yang akan kupelajari dan item apa yang akan kukumpulkan selanjutnya.",
+      "Faktanya, baru setelah saya menyusun daftar ini, saya menyadari betapa banyaknya item yang saya butuhkan sebagai seorang freelancer."
+    ]
+  },
+  "items": [
+    {
+      "no": 1,
+      "cat": "gear",
+      "ko": {
+        "name": "최신 노트북",
+        "category": "장비",
+        "tag": "",
+        "desc": "높은 사양과 넉넉한 저장 공간을 갖춘 최신 노트북. 파일을 더 많이 저장하고 여러 프로그램을 동시에 돌릴 수 있다. 작업에 필요한 가장 중요한 무기. \"할부의 늪\"이 발동 할 수있다.",
+        "combo": "",
+        "statsRaw": "+공격력 100  +전문력 10  -지갑사정 100",
+        "stats": [
+          {
+            "raw": "+공격력 100",
+            "sign": "+",
+            "label": "공격력",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+전문력 10",
+            "sign": "+",
+            "label": "전문력",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-지갑사정 100",
+            "sign": "-",
+            "label": "지갑사정",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "지갑은 가벼워진다. \"할부의 늪\"을 함께 쓰면 당장의 부담은 줄지만, 갚을 돈은 남는다.",
+          "한 달 동안은 내 몸보다 노트북을 더 애지중지한다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "OP Laptop",
+        "category": "Gear",
+        "tag": "",
+        "desc": "A new OP laptop with high specs and massive storage. You can stash more files and multitask like a beast. Your ultimate weapon. Might trigger the \"Installment Trap\" (Installments).",
+        "combo": "",
+        "statsRaw": "+100 Attack, +10 Pro, -100 Wallet",
+        "stats": [
+          {
+            "raw": "+100 Attack",
+            "sign": "+",
+            "label": "Attack",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Pro",
+            "sign": "+",
+            "label": "Pro",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-100 Wallet",
+            "sign": "-",
+            "label": "Wallet",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Your wallet is crying. With the \"Installment Trap,\" buy now, cry later.",
+          "For a month, you treat it better than yourself."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Laptop OP",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Laptop OP (Overpowered) baru dengan spek dewa dan penyimpanan raksasa. Kamu bisa menimbun lebih banyak file dan multitasking dengan buas. Senjata andalanmu. Bisa memicu \"Jebakan Cicilan\" (Cicilan).",
+        "combo": "",
+        "statsRaw": "+100 Serangan, +10 Pro, -100 Dompet",
+        "stats": [
+          {
+            "raw": "+100 Serangan",
+            "sign": "+",
+            "label": "Serangan",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Pro",
+            "sign": "+",
+            "label": "Pro",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-100 Dompet",
+            "sign": "-",
+            "label": "Dompet",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Dompetmu menangis. Dengan \"Jebakan Cicilan,\" beli sekarang, nangis kemudian.",
+          "Selama sebulan, kamu merawatnya lebih baik daripada dirimu sendiri."
+        ],
+        "notes": []
+      },
+      "related": [
+        16
+      ]
+    },
+    {
+      "no": 2,
+      "cat": "gear",
+      "ko": {
+        "name": "아이패드",
+        "category": "장비",
+        "tag": "",
+        "desc": "이미지를 스케치할 때 큰 도움이 되는 장비. 새로 산 최신 노트북과 함께 있으면 효율이 올라간다.",
+        "combo": "",
+        "statsRaw": "+작업 효율 50  -기억력 10",
+        "stats": [
+          {
+            "raw": "+작업 효율 50",
+            "sign": "+",
+            "label": "작업 효율",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-기억력 10",
+            "sign": "-",
+            "label": "기억력",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "자주 쓰지 않으면 어디 뒀는지 까먹는다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "iPad",
+        "category": "Gear",
+        "tag": "",
+        "desc": "God-tier gear for sketching. Massive synergy with the OP laptop.",
+        "combo": "",
+        "statsRaw": "+50 Workflow, -10 Memory",
+        "stats": [
+          {
+            "raw": "+50 Workflow",
+            "sign": "+",
+            "label": "Workflow",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-10 Memory",
+            "sign": "-",
+            "label": "Memory",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Don't use it for a bit, and you totally forget where it spawned."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "iPad",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Gear tingkat dewa untuk bikin sketsa. Sinerginya luar biasa dengan Laptop OP.",
+        "combo": "",
+        "statsRaw": "+50 Alur Kerja, -10 Ingatan",
+        "stats": [
+          {
+            "raw": "+50 Alur Kerja",
+            "sign": "+",
+            "label": "Alur Kerja",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-10 Ingatan",
+            "sign": "-",
+            "label": "Ingatan",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Kalau nggak dipakai sebentar aja, kamu benar-benar lupa di mana naruhnya (spawn)."
+        ],
+        "notes": []
+      },
+      "related": [
+        1
+      ]
+    },
+    {
+      "no": 3,
+      "cat": "gear",
+      "ko": {
+        "name": "블루라이트 차단 안경",
+        "category": "장비",
+        "tag": "",
+        "desc": "쓰면 왠지 눈이 편안해지는 것 같아 손이 가는 아이템. 가끔은 지적으로 보이는 효과도 있다.",
+        "combo": "",
+        "statsRaw": "+패션 센스 30  +눈의 편안함 3",
+        "stats": [
+          {
+            "raw": "+패션 센스 30",
+            "sign": "+",
+            "label": "패션 센스",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+눈의 편안함 3",
+            "sign": "+",
+            "label": "눈의 편안함",
+            "value": 3,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "en": {
+        "name": "Blue Light Glasses",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Easy on the eyes. Bonus: you look smarter.",
+        "combo": "",
+        "statsRaw": "+30 Drip, +3 Eye Comfort",
+        "stats": [
+          {
+            "raw": "+30 Drip",
+            "sign": "+",
+            "label": "Drip",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+3 Eye Comfort",
+            "sign": "+",
+            "label": "Eye Comfort",
+            "value": 3,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "id": {
+        "name": "Kacamata Anti Radiasi",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Nyaman di mata. Bonus: kamu kelihatan lebih pintar.",
+        "combo": "",
+        "statsRaw": "+30 Gaya, +3 Kenyamanan Mata",
+        "stats": [
+          {
+            "raw": "+30 Gaya",
+            "sign": "+",
+            "label": "Gaya",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+3 Kenyamanan Mata",
+            "sign": "+",
+            "label": "Kenyamanan Mata",
+            "value": 3,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 4,
+      "cat": "gear",
+      "ko": {
+        "name": "백팩",
+        "category": "장비",
+        "tag": "",
+        "desc": "노트북, 아이패드, 마우스 등 작업 장비를 담고 다니는 가방. 튼튼한 가방끈을 믿고 하나둘 넣다 보면 무게가 5kg을 넘기도 한다.",
+        "combo": "",
+        "statsRaw": "+이동력 30  +작업 효율 10  -패션 센스 20",
+        "stats": [
+          {
+            "raw": "+이동력 30",
+            "sign": "+",
+            "label": "이동력",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+작업 효율 10",
+            "sign": "+",
+            "label": "작업 효율",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-패션 센스 20",
+            "sign": "-",
+            "label": "패션 센스",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "잔뜩 넣고 메면 몸이 앞으로 기운다.",
+          "아무리 꾸며도 마지막에 백팩을 메면 맵시가 사라진다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Backpack",
+        "category": "Gear",
+        "tag": "",
+        "desc": "The bag holding your whole setup. Trust the straps and keep packing, suddenly it's 5kg+.",
+        "combo": "",
+        "statsRaw": "+30 Mobility, +10 Workflow, -20 Drip",
+        "stats": [
+          {
+            "raw": "+30 Mobility",
+            "sign": "+",
+            "label": "Mobility",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Workflow",
+            "sign": "+",
+            "label": "Workflow",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-20 Drip",
+            "sign": "-",
+            "label": "Drip",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Pack too much and you slouch like a goblin.",
+          "Try to dress nice, but the backpack ruins your fit."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Ransel",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Tas yang menampung seluruh setup kerjamu. Terlalu percaya sama talinya dan terus masukin barang, tiba-tiba beratnya 5kg+.",
+        "combo": "",
+        "statsRaw": "+30 Mobilitas, +10 Alur Kerja, -20 Gaya",
+        "stats": [
+          {
+            "raw": "+30 Mobilitas",
+            "sign": "+",
+            "label": "Mobilitas",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Alur Kerja",
+            "sign": "+",
+            "label": "Alur Kerja",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-20 Gaya",
+            "sign": "-",
+            "label": "Gaya",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Bawa terlalu banyak barang dan posturmu jadi bungkuk kayak goblin.",
+          "Coba dandan keren, tapi ranselnya ngerusak outfit-mu."
+        ],
+        "notes": []
+      },
+      "related": [
+        2
+      ]
+    },
+    {
+      "no": 5,
+      "cat": "gear",
+      "ko": {
+        "name": "AI",
+        "category": "장비",
+        "tag": "",
+        "desc": "작업 효율을 높이고, 혼자 시도할 수 있는 그래픽과 디자인의 범위를 넓혀주는 장비. 구독의 굴레 상태 자동 발동.",
+        "combo": "",
+        "statsRaw": "+작업 효율 50  +무서움 50  -지갑 사정 20",
+        "stats": [
+          {
+            "raw": "+작업 효율 50",
+            "sign": "+",
+            "label": "작업 효율",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+무서움 50",
+            "sign": "+",
+            "label": "무서움",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-지갑 사정 20",
+            "sign": "-",
+            "label": "지갑 사정",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "일을 도와주는 건지, 내 자리를 위협하는 건지 모르겠다. 무서운 놈이다.",
+          "\"구독의 굴레\"까지 걸리면 지갑 사정은 두 배로 나빠진다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "AI",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Boosts workflow and lets you solo massive designs. Auto-triggers \"Sub Hell\" (Subscriptions).",
+        "combo": "",
+        "statsRaw": "+50 Workflow, +50 Spooky, -20 Wallet",
+        "stats": [
+          {
+            "raw": "+50 Workflow",
+            "sign": "+",
+            "label": "Workflow",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Spooky",
+            "sign": "+",
+            "label": "Spooky",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-20 Wallet",
+            "sign": "-",
+            "label": "Wallet",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Is it carrying my work or stealing my job? Kinda sus.",
+          "Hit with \"Sub Hell,\" you take double wallet damage."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "AI",
+        "category": "Gear",
+        "tag": "",
+        "desc": "Meningkatkan alur kerja dan memungkinkanmu solo ngerjain desain raksasa. Otomatis memicu \"Neraka Langganan\".",
+        "combo": "",
+        "statsRaw": "+50 Alur Kerja, +50 Ngeri, -20 Dompet",
+        "stats": [
+          {
+            "raw": "+50 Alur Kerja",
+            "sign": "+",
+            "label": "Alur Kerja",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Ngeri",
+            "sign": "+",
+            "label": "Ngeri",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-20 Dompet",
+            "sign": "-",
+            "label": "Dompet",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Ini ngebantu kerjaan atau nyuri kerjaanku? Agak mencurigakan (sus).",
+          "Kena \"Neraka Langganan,\" dompetmu kena damage ganda."
+        ],
+        "notes": []
+      },
+      "related": [
+        17
+      ]
+    },
+    {
+      "no": 6,
+      "cat": "consumable",
+      "ko": {
+        "name": "에너지 드링크",
+        "category": "소모품",
+        "tag": "",
+        "desc": "쓴맛을 싫어하는 사람을 위한 밤샘용 음료. 커피도, 술도, 담배도 하지 않는 사람에게는 달콤한 버팀목이다.",
+        "combo": "",
+        "statsRaw": "+밤새기 100  +단맛 10  +에너지 10",
+        "stats": [
+          {
+            "raw": "+밤새기 100",
+            "sign": "+",
+            "label": "밤새기",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+단맛 10",
+            "sign": "+",
+            "label": "단맛",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+에너지 10",
+            "sign": "+",
+            "label": "에너지",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "잠들기 어려워진다",
+          "당이 든 음료라면 칼로리와 건강이 신경쓰인다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Energy Drink",
+        "category": "Consumable",
+        "tag": "",
+        "desc": "Sweaty gamer fuel for those who hate bitter stuff. The sweet carry for the non-coffee/non-smoker gang.",
+        "combo": "",
+        "statsRaw": "+100 All-Nighter, +10 Sweetness, +10 Energy",
+        "stats": [
+          {
+            "raw": "+100 All-Nighter",
+            "sign": "+",
+            "label": "All-Nighter",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Sweetness",
+            "sign": "+",
+            "label": "Sweetness",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Energy",
+            "sign": "+",
+            "label": "Energy",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Sleep? Never heard of her.",
+          "Sugary ones trigger health anxiety."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Minuman Berenergi",
+        "category": "Consumable",
+        "tag": "",
+        "desc": "Bahan bakar gamer keras buat yang benci rasa pahit. Penyelamat (carry) manis buat kaum anti-kopi dan anti-rokok.",
+        "combo": "",
+        "statsRaw": "+100 Begadang, +10 Kemanisan, +10 Energi",
+        "stats": [
+          {
+            "raw": "+100 Begadang",
+            "sign": "+",
+            "label": "Begadang",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Kemanisan",
+            "sign": "+",
+            "label": "Kemanisan",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Energi",
+            "sign": "+",
+            "label": "Energi",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Tidur? Apa itu tidur?",
+          "Yang manis-manis bikin kepikiran soal kesehatan."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 7,
+      "cat": "consumable",
+      "ko": {
+        "name": "매우 시원한 안약",
+        "category": "소모품",
+        "tag": "",
+        "desc": "졸릴 때 넣으면 눈에 강렬한 시원함을 선사하는 소모품.",
+        "combo": "",
+        "statsRaw": "+밤새기 10  +작업 효율 5",
+        "stats": [
+          {
+            "raw": "+밤새기 10",
+            "sign": "+",
+            "label": "밤새기",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+작업 효율 5",
+            "sign": "+",
+            "label": "작업 효율",
+            "value": 5,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "그 시원함이 자꾸 생각나 중독성이 있다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Icy Eye Drops",
+        "category": "Consumable",
+        "tag": "",
+        "desc": "Hits your eyes with a crazy freeze effect when you're sleepy.",
+        "combo": "",
+        "statsRaw": "+10 All-Nighter, +5 Workflow",
+        "stats": [
+          {
+            "raw": "+10 All-Nighter",
+            "sign": "+",
+            "label": "All-Nighter",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+5 Workflow",
+            "sign": "+",
+            "label": "Workflow",
+            "value": 5,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Addicting AF."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Obat Tetes Mata Dingin",
+        "category": "Consumable",
+        "tag": "",
+        "desc": "Memberikan efek beku yang gila di mata saat kamu ngantuk.",
+        "combo": "",
+        "statsRaw": "+10 Begadang, +5 Alur Kerja",
+        "stats": [
+          {
+            "raw": "+10 Begadang",
+            "sign": "+",
+            "label": "Begadang",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+5 Alur Kerja",
+            "sign": "+",
+            "label": "Alur Kerja",
+            "value": 5,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Bikin candu banget."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 8,
+      "cat": "consumable",
+      "ko": {
+        "name": "맛있는 밥",
+        "category": "소모품",
+        "tag": "",
+        "desc": "힘들다고 끼니를 대충 때우다가도, 가끔은 제대로 맛있는 걸 먹겠다고 급발진한다. 한 끼를 잘 먹으면 기분이 나아지고, 맛있을수록 행복해진다. 비싼 밥이 제값을 할 때는 더없이 만족스럽다.",
+        "combo": "",
+        "statsRaw": "+행복감 (맛에 비례)  +체력 50  -지갑 사정 30",
+        "stats": [
+          {
+            "raw": "+행복감 (맛에 비례)",
+            "sign": "+",
+            "label": "행복감 (맛에 비례)",
+            "value": null,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+체력 50",
+            "sign": "+",
+            "label": "체력",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-지갑 사정 30",
+            "sign": "-",
+            "label": "지갑 사정",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "비싼데 맛없으면 큰 실망감에 더 우울해진다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "W Meal",
+        "category": "Consumable",
+        "tag": "",
+        "desc": "Surviving on trash food, then suddenly going all out for a W meal. Good food = good mood. Expensive but worth it = peak satisfaction.",
+        "combo": "",
+        "statsRaw": "+Happiness (scales with taste), +50 HP, -30 Wallet",
+        "stats": [
+          {
+            "raw": "+Happiness (scales with taste)",
+            "sign": "+",
+            "label": "Happiness (scales with taste)",
+            "value": null,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 HP",
+            "sign": "+",
+            "label": "HP",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-30 Wallet",
+            "sign": "-",
+            "label": "Wallet",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Pricey but mid = instant regret."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Makanan Sultan (W Meal)",
+        "category": "Consumable",
+        "tag": "",
+        "desc": "Bertahan hidup pakai makanan seadanya, lalu tiba-tiba jor-joran beli makanan enak. Makanan enak = mood bagus. Mahal tapi sepadan = kepuasan maksimal.",
+        "combo": "",
+        "statsRaw": "+Kebahagiaan (meningkat sesuai rasa), +50 HP, -30 Dompet",
+        "stats": [
+          {
+            "raw": "+Kebahagiaan (meningkat sesuai rasa)",
+            "sign": "+",
+            "label": "Kebahagiaan (meningkat sesuai rasa)",
+            "value": null,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 HP",
+            "sign": "+",
+            "label": "HP",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-30 Dompet",
+            "sign": "-",
+            "label": "Dompet",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Mahal tapi rasanya biasa aja (mid) = langsung nyesel."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 9,
+      "cat": "skill",
+      "ko": {
+        "name": "쌉가능",
+        "category": "스킬",
+        "tag": "",
+        "desc": "프리랜서 초반, 일이 들어오면 일단 해보겠다고 말하는 스킬. 수락은 지금의 내가 하고, 수습은 미래의 내가 밤새 한다.",
+        "combo": "같이 쓰는 아이템: 에너지 드링크 + 매우 시원한 안약 (효과 극대화)",
+        "statsRaw": "+일감 100  -수면 100  +떠넘기기 50",
+        "stats": [
+          {
+            "raw": "+일감 100",
+            "sign": "+",
+            "label": "일감",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-수면 100",
+            "sign": "-",
+            "label": "수면",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+떠넘기기 50",
+            "sign": "+",
+            "label": "떠넘기기",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "쿨타임 : 없음."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "\"Send It\"",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Noob freelancer skill: saying \"YES\" to everything. Present me says bet, Future me grinds all night to fix it. Combo: Energy Drink + Icy Eye Drops.",
+        "combo": "",
+        "statsRaw": "+100 Gigs, -100 Sleep, +50 Future Me's Problems",
+        "stats": [
+          {
+            "raw": "+100 Gigs",
+            "sign": "+",
+            "label": "Gigs",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-100 Sleep",
+            "sign": "-",
+            "label": "Sleep",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Future Me's Problems",
+            "sign": "+",
+            "label": "Future Me's Problems",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Cooldown: 0"
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "\"Gasss\" (\"Send It\")",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Skill freelancer noob: bilang \"IYA\" ke semua hal. Aku di masa sekarang bilang oke, aku di masa depan begadang buat ngerjainnya. Kombo: Minuman Berenergi + Obat Tetes Mata Dingin.",
+        "combo": "",
+        "statsRaw": "+100 Proyek, -100 Tidur, +50 Masalah Diriku di Masa Depan",
+        "stats": [
+          {
+            "raw": "+100 Proyek",
+            "sign": "+",
+            "label": "Proyek",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-100 Tidur",
+            "sign": "-",
+            "label": "Tidur",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Masalah Diriku di Masa Depan",
+            "sign": "+",
+            "label": "Masalah Diriku di Masa Depan",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Cooldown: 0"
+        ],
+        "notes": []
+      },
+      "related": [
+        6,
+        7
+      ]
+    },
+    {
+      "no": 10,
+      "cat": "skill",
+      "ko": {
+        "name": "마감 직전 각성",
+        "category": "스킬",
+        "tag": "",
+        "desc": "마감이 코앞에 닥쳐야 일이 잘되는 스킬. 시간이 넉넉할 때는 잠잠하다가 더는 미룰 수 없을 때 발동한다. 마감이 시작되면 지속시간이 유지된다.",
+        "combo": "",
+        "statsRaw": "+작업 속도 300  -수면 100",
+        "stats": [
+          {
+            "raw": "+작업 속도 300",
+            "sign": "+",
+            "label": "작업 속도",
+            "value": 300,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-수면 100",
+            "sign": "-",
+            "label": "수면",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "마감이 여러 개 겹치면 각성만으로 버티지 못하고 결국 밤을 새운다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Clutch Mode",
+        "category": "Skill",
+        "tag": "",
+        "desc": "AFK until the deadline. Then you go sicko mode. Buff stays active during crunch time.",
+        "combo": "",
+        "statsRaw": "+300 Speed, -100 Sleep",
+        "stats": [
+          {
+            "raw": "+300 Speed",
+            "sign": "+",
+            "label": "Speed",
+            "value": 300,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-100 Sleep",
+            "sign": "-",
+            "label": "Sleep",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Stacked deadlines = the buff runs out and you just pull an all-nighter."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Mode Kepepet (Clutch Mode)",
+        "category": "Skill",
+        "tag": "",
+        "desc": "AFK sampai deadline tiba. Lalu kamu masuk mode kesetanan (sicko mode). Buff tetap aktif selama masa krisis (crunch time).",
+        "combo": "",
+        "statsRaw": "+300 Kecepatan, -100 Tidur",
+        "stats": [
+          {
+            "raw": "+300 Kecepatan",
+            "sign": "+",
+            "label": "Kecepatan",
+            "value": 300,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-100 Tidur",
+            "sign": "-",
+            "label": "Tidur",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Deadline numpuk = buff-nya habis dan ujung-ujungnya cuma bisa begadang."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 11,
+      "cat": "skill",
+      "ko": {
+        "name": "Ctrl+S",
+        "category": "스킬",
+        "tag": "",
+        "desc": "작업 내용을 저장하는 생존 스킬. 프로그램을 여러 개 돌리다 보면 갑자기 멈추거나 꺼지기도 한다. 그 순간을 대비해 손이 먼저 Ctrl+S를 누르게 해야 한다.",
+        "combo": "",
+        "statsRaw": "+파일 생존율 100  +안심 50",
+        "stats": [
+          {
+            "raw": "+파일 생존율 100",
+            "sign": "+",
+            "label": "파일 생존율",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+안심 50",
+            "sign": "+",
+            "label": "안심",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "쿨타임: 없음 (수시로 누를 것)"
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Ctrl+S",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Your lifeline. Run too many program apps and they crash outta nowhere. Muscle memory hits Ctrl+S first.",
+        "combo": "",
+        "statsRaw": "+100 File Survival, +50 Peace of Mind",
+        "stats": [
+          {
+            "raw": "+100 File Survival",
+            "sign": "+",
+            "label": "File Survival",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Peace of Mind",
+            "sign": "+",
+            "label": "Peace of Mind",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Cooldown: 0 (Spam it)"
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Ctrl+S",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Nyawamu. Buka terlalu banyak aplikasi program dan tiba-tiba nge-crash. Ingatan otot (muscle memory) langsung menekan Ctrl+S.",
+        "combo": "",
+        "statsRaw": "+100 Keselamatan File, +50 Ketenangan Batin",
+        "stats": [
+          {
+            "raw": "+100 Keselamatan File",
+            "sign": "+",
+            "label": "Keselamatan File",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Ketenangan Batin",
+            "sign": "+",
+            "label": "Ketenangan Batin",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Cooldown: 0 (Spam terus)"
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 12,
+      "cat": "skill",
+      "ko": {
+        "name": "거북목 탈출",
+        "category": "스킬",
+        "tag": "",
+        "desc": "집중하느라 얼굴이 화면에 바짝 붙었을 때 발동하는 스킬. \"지금 자세 괜찮나?\" 싶어 목을 쑥 당기면 이중턱이 생긴다.",
+        "combo": "",
+        "statsRaw": "+자세 50  +자세 자각 30  -외모 50",
+        "stats": [
+          {
+            "raw": "+자세 50",
+            "sign": "+",
+            "label": "자세",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+자세 자각 30",
+            "sign": "+",
+            "label": "자세 자각",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-외모 50",
+            "sign": "-",
+            "label": "외모",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "자세를 바로잡다가 화면에 비친 이중턱을 보고 깜짝 놀란다.",
+          "쿨타임: 화면에 얼굴이 가까워질 때마다"
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Posture Check",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Triggers when you go screen-goblin mode. You pull your neck back like \"is my posture okay?\" and spawn a double chin.",
+        "combo": "",
+        "statsRaw": "+50 Posture, +30 Awareness, -50 Looks",
+        "stats": [
+          {
+            "raw": "+50 Posture",
+            "sign": "+",
+            "label": "Posture",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+30 Awareness",
+            "sign": "+",
+            "label": "Awareness",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-50 Looks",
+            "sign": "-",
+            "label": "Looks",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Fixing posture = jumpscare when you see your double chin on the monitor.",
+          "Cooldown: Whenever getting too close to the screen."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Cek Postur",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Aktif saat kamu masuk mode goblin layar (terlalu nunduk). Kamu menarik leher ke belakang seolah bertanya \"posturku aman nggak?\" dan memunculkan dagu berlipat (double chin).",
+        "combo": "",
+        "statsRaw": "+50 Postur, +30 Kesadaran, -50 Penampilan",
+        "stats": [
+          {
+            "raw": "+50 Postur",
+            "sign": "+",
+            "label": "Postur",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+30 Kesadaran",
+            "sign": "+",
+            "label": "Kesadaran",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-50 Penampilan",
+            "sign": "-",
+            "label": "Penampilan",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Benerin postur = kaget (jumpscare) saat melihat dagu berlipatmu terpantul di monitor.",
+          "Cooldown: Kapan pun saat wajah terlalu dekat dengan layar."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 13,
+      "cat": "skill",
+      "ko": {
+        "name": "무한 북마크",
+        "category": "스킬",
+        "tag": "",
+        "desc": "SNS나 인터넷 등에서 본 자료를 끝없이 저장하는 스킬. \"나중에 유용하겠지\"라는 생각으로 일단 북마크부터 누른다. 도태의 공포가 같이 발동 될수있다.",
+        "combo": "",
+        "statsRaw": "+저장 100 / 다시 볼 확률 1%",
+        "stats": [
+          {
+            "raw": "+저장 100",
+            "sign": "+",
+            "label": "저장",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "다시 볼 확률 1%",
+            "sign": "",
+            "label": "다시 볼 확률",
+            "value": 1,
+            "unit": "%",
+            "note": ""
+          }
+        ],
+        "side": [
+          "저장한 자료는 늘어나는데 다시 열어보는 일은 드물다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Hoarder",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Hoarding endless references on Insta/Pinterest. Hitting save thinking \"might need this later.\" Might trigger Left Behind.",
+        "combo": "",
+        "statsRaw": "+100 Saves, 1% Revisit Rate",
+        "stats": [
+          {
+            "raw": "+100 Saves",
+            "sign": "+",
+            "label": "Saves",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "1% Revisit Rate",
+            "sign": "",
+            "label": "Revisit Rate",
+            "value": 1,
+            "unit": "%",
+            "note": ""
+          }
+        ],
+        "side": [
+          "The stash grows, but you never open it."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Tukang Timbun (Hoarder)",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Menimbun referensi tanpa henti di Insta/Pinterest. Menekan save sambil berpikir \"mungkin nanti butuh.\" Bisa memicu Tertinggal (Left Behind).",
+        "combo": "",
+        "statsRaw": "+100 Simpan, 1% Tingkat Buka Kembali",
+        "stats": [
+          {
+            "raw": "+100 Simpan",
+            "sign": "+",
+            "label": "Simpan",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "1% Tingkat Buka Kembali",
+            "sign": "",
+            "label": "Tingkat Buka Kembali",
+            "value": 1,
+            "unit": "%",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Timbunannya terus bertambah, tapi nggak pernah kamu buka."
+        ],
+        "notes": []
+      },
+      "related": [
+        22
+      ]
+    },
+    {
+      "no": 14,
+      "cat": "skill",
+      "ko": {
+        "name": "셀프 가스라이팅",
+        "category": "스킬",
+        "tag": "",
+        "desc": "자괴감에 빠졌을 때 스스로를 설득하는 스킬. \"이건 우주가 나에게 준 시련이고, 나는 이걸 해결해야 한다\"고 되뇌어 본다. 그러면 조금은 다시 일할 마음이 생긴다.",
+        "combo": "",
+        "statsRaw": "-자괴감 30  +일하고 싶음 20",
+        "stats": [
+          {
+            "raw": "-자괴감 30",
+            "sign": "-",
+            "label": "자괴감",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+일하고 싶음 20",
+            "sign": "+",
+            "label": "일하고 싶음",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "저장한 자료는 늘어나는데 다시 열어보는 일은 드물다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Copium",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Gaslight yourself through self-doubt. \"The universe is testing me, I gotta clear this.\" Gives you a tiny bit of motivation to grind again.",
+        "combo": "",
+        "statsRaw": "-30 Self-Doubt, +20 Motivation",
+        "stats": [
+          {
+            "raw": "-30 Self-Doubt",
+            "sign": "-",
+            "label": "Self-Doubt",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+20 Motivation",
+            "sign": "+",
+            "label": "Motivation",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "The stash grows, but you never open it."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Copium (Penghiburan Diri)",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Gaslight diri sendiri saat merasa insecure. \"Alam semesta sedang mengujiku, aku harus menyelesaikan ini.\" Memberimu sedikit motivasi untuk grinding lagi.",
+        "combo": "",
+        "statsRaw": "-30 Keraguan Diri, +20 Motivasi",
+        "stats": [
+          {
+            "raw": "-30 Keraguan Diri",
+            "sign": "-",
+            "label": "Keraguan Diri",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+20 Motivasi",
+            "sign": "+",
+            "label": "Motivasi",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Timbunannya terus bertambah, tapi nggak pernah kamu buka."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 15,
+      "cat": "skill",
+      "ko": {
+        "name": "으심되. 증거 있어?",
+        "category": "스킬",
+        "tag": "",
+        "desc": "일하다가 문득 \"이게 맞나?\" 싶을 때 쓰는 스킬. 나를 몰아붙이는 생각에 \"증거 있어?\"라고 되묻는다. 자괴감이 어디서 왔는지 짚어본 뒤 다시 시작한다.",
+        "combo": "",
+        "statsRaw": "+자기 객관화 50  -자괴감 20",
+        "stats": [
+          {
+            "raw": "+자기 객관화 50",
+            "sign": "+",
+            "label": "자기 객관화",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-자괴감 20",
+            "sign": "-",
+            "label": "자괴감",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "쿨타임: \"이게 맞나?\" 싶을 때마다"
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Reality Check",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Doubting yourself? Ask \"Got proof?\" Find the cause, then restart.",
+        "combo": "",
+        "statsRaw": "+50 Reality Check, -20 Self-Doubt",
+        "stats": [
+          {
+            "raw": "+50 Reality Check",
+            "sign": "+",
+            "label": "Reality Check",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-20 Self-Doubt",
+            "sign": "-",
+            "label": "Self-Doubt",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Cooldown: Whenever thinking \"Is this right?\""
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Tamparan Realita (Reality Check)",
+        "category": "Skill",
+        "tag": "",
+        "desc": "Meragukan diri sendiri? Tanya \"Ada buktinya?\" Cari penyebabnya, lalu restart.",
+        "combo": "",
+        "statsRaw": "+50 Tamparan Realita, -20 Keraguan Diri",
+        "stats": [
+          {
+            "raw": "+50 Tamparan Realita",
+            "sign": "+",
+            "label": "Tamparan Realita",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-20 Keraguan Diri",
+            "sign": "-",
+            "label": "Keraguan Diri",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Cooldown: Kapan pun saat berpikir \"Apakah ini udah bener?\""
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 16,
+      "cat": "status",
+      "ko": {
+        "name": "할부의 늪",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "장비를 사려는 순간 발동되는 상태 효과. 큰돈이 드는 장비는 일단 할부로 산다. 당장 내 것이 된 행복, 아직 남은 할부금에 대한 두려움, 다음 달에도 돈을 벌 수 있을지 모르는 불안이 번갈아 찾아온다.",
+        "combo": "",
+        "statsRaw": "+행복감 50  +두려움 50  +당장의 여유 10",
+        "stats": [
+          {
+            "raw": "+행복감 50",
+            "sign": "+",
+            "label": "행복감",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+두려움 50",
+            "sign": "+",
+            "label": "두려움",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+당장의 여유 10",
+            "sign": "+",
+            "label": "당장의 여유",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "가격이 올라갈수록 두려움은 커지고, 처음의 행복감은 줄어든다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Installment Trap",
+        "category": "Status",
+        "tag": "",
+        "desc": "Triggers when buying gear. Big purchases go on installments. The cycle of \"It's mine now!\", \"I still owe money\", and \"Will I get paid next month?\" hits you back-to-back.",
+        "combo": "",
+        "statsRaw": "+50 Happiness, +50 Fear, +10 Fake Rich",
+        "stats": [
+          {
+            "raw": "+50 Happiness",
+            "sign": "+",
+            "label": "Happiness",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Fear",
+            "sign": "+",
+            "label": "Fear",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Fake Rich",
+            "sign": "+",
+            "label": "Fake Rich",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Higher price = more fear, less hype."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Jebakan Cicilan",
+        "category": "Status",
+        "tag": "",
+        "desc": "Aktif saat membeli perlengkapan (gear). Pembelian besar pakai cicilan. Siklus \"Ini milikku sekarang!\", \"Aku masih punya utang\", dan \"Bulan depan gajian nggak ya?\" menghantammu berturut-turut.",
+        "combo": "",
+        "statsRaw": "+50 Kebahagiaan, +50 Ketakutan, +10 Sok Kaya",
+        "stats": [
+          {
+            "raw": "+50 Kebahagiaan",
+            "sign": "+",
+            "label": "Kebahagiaan",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Ketakutan",
+            "sign": "+",
+            "label": "Ketakutan",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+10 Sok Kaya",
+            "sign": "+",
+            "label": "Sok Kaya",
+            "value": 10,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Harga lebih mahal = lebih banyak ketakutan, lebih sedikit rasa hype."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 17,
+      "cat": "status",
+      "ko": {
+        "name": "구독의 굴레",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "새로운 AI가 나올 때마다 발동되는 상태 효과. 한곳에 정착하지 못하고 이것저것 구독한다. 막상 써보면 저마다 쓸모가 있어 하나도 끊지 못한다.",
+        "combo": "",
+        "statsRaw": "-지갑 사정 50  +두려움 20  +막막함 30",
+        "stats": [
+          {
+            "raw": "-지갑 사정 50",
+            "sign": "-",
+            "label": "지갑 사정",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+두려움 20",
+            "sign": "+",
+            "label": "두려움",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+막막함 30",
+            "sign": "+",
+            "label": "막막함",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "구독 목록을 펼쳐보면 막막해진다."
+        ],
+        "notes": [
+          "*현시점 구독 중인 프로그램: Adobe, Claude, Gemini, GPT, 외 3개 더…"
+        ]
+      },
+      "en": {
+        "name": "Sub Hell",
+        "category": "Status",
+        "tag": "",
+        "desc": "Triggers with every new AI drop. Can't settle, just sub to everything. They all kinda hit, so you can't cancel any.",
+        "combo": "",
+        "statsRaw": "-50 Wallet, +20 Fear, +30 Confusion",
+        "stats": [
+          {
+            "raw": "-50 Wallet",
+            "sign": "-",
+            "label": "Wallet",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+20 Fear",
+            "sign": "+",
+            "label": "Fear",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+30 Confusion",
+            "sign": "+",
+            "label": "Confusion",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Looking at the sub list is depressing."
+        ],
+        "notes": [
+          "*Current subs: Adobe, Claude, Gemini, GPT, +3 more..."
+        ]
+      },
+      "id": {
+        "name": "Neraka Langganan (Sub Hell)",
+        "category": "Status",
+        "tag": "",
+        "desc": "Aktif setiap kali ada AI baru yang rilis. Nggak bisa milih, jadi langganan semuanya. Semuanya lumayan bagus, jadi kamu nggak bisa cancel satu pun.",
+        "combo": "",
+        "statsRaw": "-50 Dompet, +20 Ketakutan, +30 Kebingungan",
+        "stats": [
+          {
+            "raw": "-50 Dompet",
+            "sign": "-",
+            "label": "Dompet",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+20 Ketakutan",
+            "sign": "+",
+            "label": "Ketakutan",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+30 Kebingungan",
+            "sign": "+",
+            "label": "Kebingungan",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Melihat daftar langganan itu bikin depresi."
+        ],
+        "notes": [
+          "*Langganan saat ini: Adobe, Claude, Gemini, GPT, +3 lagi..."
+        ]
+      },
+      "related": []
+    },
+    {
+      "no": 18,
+      "cat": "status",
+      "ko": {
+        "name": "저는 언어 모델이라서 수행할 수 없습니다",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "AI의 반항. 이 문장이 뜨는 순간, 지금까지 한 요청이 전부 무효가 된 기분이 든다. 어이가 없는데 어디서부터 잘못됐는지도 모르겠다.",
+        "combo": "",
+        "statsRaw": "-요청 100 (전부 무효)  +어이없음 100",
+        "stats": [
+          {
+            "raw": "-요청 100 (전부 무효)",
+            "sign": "-",
+            "label": "요청",
+            "value": 100,
+            "unit": "",
+            "note": "(전부 무효)"
+          },
+          {
+            "raw": "+어이없음 100",
+            "sign": "+",
+            "label": "어이없음",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "새 창을 켜도 어이없음은 따라온다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Bruh Moment",
+        "category": "Status",
+        "tag": "",
+        "desc": "AI's rebellion. When this drops, all your past prompts feel useless. You're just like \"bruh\" and don't even know what went wrong.",
+        "combo": "",
+        "statsRaw": "-100 Prompts (Invalid), +100 Bruh Moment",
+        "stats": [
+          {
+            "raw": "-100 Prompts (Invalid)",
+            "sign": "-",
+            "label": "Prompts",
+            "value": 100,
+            "unit": "",
+            "note": "(Invalid)"
+          },
+          {
+            "raw": "+100 Bruh Moment",
+            "sign": "+",
+            "label": "Bruh Moment",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "The \"bruh\" feeling follows you even in a new chat."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Momen Bruh",
+        "category": "Status",
+        "tag": "",
+        "desc": "Pemberontakan AI. Saat ini terjadi, semua prompt masa lalumu terasa tidak berguna. Kamu cuma bisa bilang \"bruh\" dan bahkan nggak tahu apa yang salah.",
+        "combo": "",
+        "statsRaw": "-100 Prompts (Tidak Valid), +100 Momen Bruh",
+        "stats": [
+          {
+            "raw": "-100 Prompts (Tidak Valid)",
+            "sign": "-",
+            "label": "Prompts",
+            "value": 100,
+            "unit": "",
+            "note": "(Tidak Valid)"
+          },
+          {
+            "raw": "+100 Momen Bruh",
+            "sign": "+",
+            "label": "Momen Bruh",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Perasaan \"bruh\" terus mengikutimu bahkan di chat yang baru."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 19,
+      "cat": "status",
+      "ko": {
+        "name": "벌이의 미지수",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "다음 달 수입을 알 수 없어 생기는 걱정. 적당히 불안하면 \"네, 일단 해볼게요\"가 발동하지만, 불안이 너무 커지면 오히려 무력해져 작업 효율이 떨어진다.",
+        "combo": "",
+        "statsRaw": "\"네, 일단 해볼게요\" 발동률 +80%",
+        "stats": [
+          {
+            "raw": "\"네, 일단 해볼게요\" 발동률 +80%",
+            "sign": "+",
+            "label": "\"네, 일단 해볼게요\" 발동률",
+            "value": 80,
+            "unit": "%",
+            "note": ""
+          }
+        ],
+        "side": [
+          "일을 많이 받아서 밤샘작업에 돌입할수도 있다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Freelancer RNG",
+        "category": "Status",
+        "tag": "",
+        "desc": "Worrying about next month's bag. Mid anxiety procs \"Sure, I'll try\", but max anxiety paralyzes you and tanks workflow.",
+        "combo": "",
+        "statsRaw": "\"Sure, I'll try\" proc rate +80%",
+        "stats": [
+          {
+            "raw": "\"Sure, I'll try\" proc rate +80%",
+            "sign": "+",
+            "label": "\"Sure, I'll try\" proc rate",
+            "value": 80,
+            "unit": "%",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Take too many gigs and you're locked into an all-nighter."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "RNG Freelancer (Gacha)",
+        "category": "Status",
+        "tag": "",
+        "desc": "Khawatir soal penghasilan (cuan) bulan depan. Kecemasan tingkat menengah memicu \"Boleh, aku coba\", tapi kecemasan maksimal membuatmu lumpuh dan menghancurkan alur kerja.",
+        "combo": "",
+        "statsRaw": "Persentase memicu \"Boleh, aku coba\" +80%",
+        "stats": [
+          {
+            "raw": "Persentase memicu \"Boleh, aku coba\" +80%",
+            "sign": "+",
+            "label": "Persentase memicu \"Boleh, aku coba\"",
+            "value": 80,
+            "unit": "%",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Ambil terlalu banyak proyek dan kamu terkunci dalam mode begadang."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 20,
+      "cat": "status",
+      "ko": {
+        "name": "노마드의 행복",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "어디서나 일할 수 있다는 행복. 날이 좋으면 나가서 일할 수 있어 좋고, 날이 나쁘면 나가지 않아도 돼서 좋다. 다양한 공간을 좋아할수록 효과가 커진다.",
+        "combo": "",
+        "statsRaw": "+활동성 100  +지출 40  +콘센트탐지력 20",
+        "stats": [
+          {
+            "raw": "+활동성 100",
+            "sign": "+",
+            "label": "활동성",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+지출 40",
+            "sign": "+",
+            "label": "지출",
+            "value": 40,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+콘센트탐지력 20",
+            "sign": "+",
+            "label": "콘센트탐지력",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "노트북 배터리가 떨어지면 불안감이 생긴다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Digital Nomad Vibes",
+        "category": "Status",
+        "tag": "",
+        "desc": "The joy of working anywhere. Good weather = work outside. Bad weather = stay in. Better if you vibe with different spaces.",
+        "combo": "",
+        "statsRaw": "+100 Mobility, +40 Spend, +20 Outlet Radar",
+        "stats": [
+          {
+            "raw": "+100 Mobility",
+            "sign": "+",
+            "label": "Mobility",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+40 Spend",
+            "sign": "+",
+            "label": "Spend",
+            "value": 40,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+20 Outlet Radar",
+            "sign": "+",
+            "label": "Outlet Radar",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Low laptop battery = instant panic."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Vibes Digital Nomad",
+        "category": "Status",
+        "tag": "",
+        "desc": "Kenikmatan bekerja di mana saja. Cuaca bagus = kerja di luar. Cuaca buruk = tetap di dalam. Lebih asyik kalau kamu bisa menikmati suasana (vibe) di tempat yang berbeda-beda.",
+        "combo": "",
+        "statsRaw": "+100 Mobilitas, +40 Pengeluaran, +20 Radar Colokan",
+        "stats": [
+          {
+            "raw": "+100 Mobilitas",
+            "sign": "+",
+            "label": "Mobilitas",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+40 Pengeluaran",
+            "sign": "+",
+            "label": "Pengeluaran",
+            "value": 40,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+20 Radar Colokan",
+            "sign": "+",
+            "label": "Radar Colokan",
+            "value": 20,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Baterai laptop menipis = langsung panik."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 21,
+      "cat": "status",
+      "ko": {
+        "name": "선망의 대상",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "일을 정말 잘하는 사람을 발견했을 때 발동하는 상태 효과. \"나도 잘해야지\"라는 생각에 의욕이 생기고, 더 열심히 하게 된다. 도태의 공포에 걸릴 수 있다.",
+        "combo": "",
+        "statsRaw": "+의욕 70  +실행력 50  -비교면역력 30",
+        "stats": [
+          {
+            "raw": "+의욕 70",
+            "sign": "+",
+            "label": "의욕",
+            "value": 70,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+실행력 50",
+            "sign": "+",
+            "label": "실행력",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-비교면역력 30",
+            "sign": "-",
+            "label": "비교면역력",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "실력 차이가 너무 크게 느껴지면 \"도태의 공포\"가 강하게 발동한다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Pro Spotted",
+        "category": "Status",
+        "tag": "",
+        "desc": "Triggers when spotting an absolute pro. \"I gotta grind too.\" Gives you hype and makes you work harder. Might trigger Left Behind.",
+        "combo": "",
+        "statsRaw": "+70 Hype, +50 Action, -30 Comparison Immunity",
+        "stats": [
+          {
+            "raw": "+70 Hype",
+            "sign": "+",
+            "label": "Hype",
+            "value": 70,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Action",
+            "sign": "+",
+            "label": "Action",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-30 Comparison Immunity",
+            "sign": "-",
+            "label": "Comparison Immunity",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Skill gap too big = heavy Left Behind hits."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Ketemu Si Jago (Pro Spotted)",
+        "category": "Status",
+        "tag": "",
+        "desc": "Aktif saat melihat orang yang benar-benar jago (pro). \"Aku harus grinding juga.\" Memberimu hype dan membuatmu bekerja lebih keras. Bisa memicu Tertinggal (Left Behind).",
+        "combo": "",
+        "statsRaw": "+70 Hype, +50 Aksi, -30 Kekebalan Membandingkan Diri",
+        "stats": [
+          {
+            "raw": "+70 Hype",
+            "sign": "+",
+            "label": "Hype",
+            "value": 70,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Aksi",
+            "sign": "+",
+            "label": "Aksi",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-30 Kekebalan Membandingkan Diri",
+            "sign": "-",
+            "label": "Kekebalan Membandingkan Diri",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Jarak skill terlalu jauh = terkena serangan Left Behind yang berat."
+        ],
+        "notes": []
+      },
+      "related": [
+        22
+      ]
+    },
+    {
+      "no": 22,
+      "cat": "status",
+      "ko": {
+        "name": "도태의 공포",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "선망하는 사람의 작업을 오래 들여다보다가 나만 뒤처지는 것 같아 두려워지는 상태. 인스타그램을 끌때 까지 지속 된다. 인사이트 중독 효과를 극대화 한다.",
+        "combo": "",
+        "statsRaw": "+불안 70  +북마크저장 100  -자존감 30",
+        "stats": [
+          {
+            "raw": "+불안 70",
+            "sign": "+",
+            "label": "불안",
+            "value": 70,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+북마크저장 100",
+            "sign": "+",
+            "label": "북마크저장",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-자존감 30",
+            "sign": "-",
+            "label": "자존감",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "불안감이 매우 커져 무력함이 크게 올 수있다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Left Behind",
+        "category": "Status",
+        "tag": "",
+        "desc": "Staring at a pro's work and feeling left behind. Lasts until you close Insta. Maxes out \"Tutorial Hell.\"",
+        "combo": "",
+        "statsRaw": "+70 Anxiety, +100 Bookmarks, -30 Ego",
+        "stats": [
+          {
+            "raw": "+70 Anxiety",
+            "sign": "+",
+            "label": "Anxiety",
+            "value": 70,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+100 Bookmarks",
+            "sign": "+",
+            "label": "Bookmarks",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-30 Ego",
+            "sign": "-",
+            "label": "Ego",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Huge anxiety = massive paralysis."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Tertinggal (Left Behind)",
+        "category": "Status",
+        "tag": "",
+        "desc": "Menatap karya si pro dan merasa tertinggal. Berlangsung sampai kamu menutup Insta. Memaksimalkan \"Neraka Tutorial\".",
+        "combo": "",
+        "statsRaw": "+70 Kecemasan, +100 Bookmark, -30 Ego",
+        "stats": [
+          {
+            "raw": "+70 Kecemasan",
+            "sign": "+",
+            "label": "Kecemasan",
+            "value": 70,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+100 Bookmark",
+            "sign": "+",
+            "label": "Bookmark",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-30 Ego",
+            "sign": "-",
+            "label": "Ego",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Kecemasan berlebih = kelumpuhan total."
+        ],
+        "notes": []
+      },
+      "related": [
+        23
+      ]
+    },
+    {
+      "no": 23,
+      "cat": "status",
+      "ko": {
+        "name": "인사이트 중독",
+        "category": "상태 효과",
+        "tag": "",
+        "desc": "\"도태의 공포\"와 함께 발동하는 상태 효과. 세미나, 워크숍, 새 프로그램, 온라인 수업을 줄줄이 결제한다. 새로운 것을 배울 때마다 하고 싶은 일도 늘어난다.",
+        "combo": "",
+        "statsRaw": "+하고싶은 것 100  -지갑사정 50",
+        "stats": [
+          {
+            "raw": "+하고싶은 것 100",
+            "sign": "+",
+            "label": "하고싶은 것",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-지갑사정 50",
+            "sign": "-",
+            "label": "지갑사정",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "배운 것을 써보기도 전에 잊으면 결제 내역만 남는다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Tutorial Hell",
+        "category": "Status",
+        "tag": "",
+        "desc": "Triggers with Left Behind. Swiping your card for seminars, tools, online courses back-to-back. Learn new stuff = wanna do more stuff.",
+        "combo": "",
+        "statsRaw": "+100 Motivation, -50 Wallet",
+        "stats": [
+          {
+            "raw": "+100 Motivation",
+            "sign": "+",
+            "label": "Motivation",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-50 Wallet",
+            "sign": "-",
+            "label": "Wallet",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Forget it before using it = just a lost receipt."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Neraka Tutorial",
+        "category": "Status",
+        "tag": "",
+        "desc": "Terpicu oleh Left Behind. Gesek kartu terus-terusan buat ikut seminar, beli tools, dan kursus online. Belajar hal baru = pengen ngelakuin lebih banyak hal.",
+        "combo": "",
+        "statsRaw": "+100 Motivasi, -50 Dompet",
+        "stats": [
+          {
+            "raw": "+100 Motivasi",
+            "sign": "+",
+            "label": "Motivasi",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "-50 Dompet",
+            "sign": "-",
+            "label": "Dompet",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Lupa sebelum sempat dipakai = cuma jadi struk yang terbuang."
+        ],
+        "notes": []
+      },
+      "related": [
+        22
+      ]
+    },
+    {
+      "no": 24,
+      "cat": "support",
+      "ko": {
+        "name": "작업 친구",
+        "category": "서포트",
+        "tag": "",
+        "desc": "작업할 때 틀어두는 영화나 음악. 일하는 시간에 집중력을 올려준다.",
+        "combo": "",
+        "statsRaw": "+작업효율 50  +몰입 100  +작업시간 30",
+        "stats": [
+          {
+            "raw": "+작업효율 50",
+            "sign": "+",
+            "label": "작업효율",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+몰입 100",
+            "sign": "+",
+            "label": "몰입",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+작업시간 30",
+            "sign": "+",
+            "label": "작업시간",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "작업보다 음악이나 영화에 몰입하면 끝까지 듣거나 보느라 작업 시간이 늘어난다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Background Entertainment",
+        "category": "Support",
+        "tag": "",
+        "desc": "Movie or music on the side. Buffs your focus during the grind.",
+        "combo": "",
+        "statsRaw": "+50 Workflow, +100 Focus, +30 Work Time",
+        "stats": [
+          {
+            "raw": "+50 Workflow",
+            "sign": "+",
+            "label": "Workflow",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+100 Focus",
+            "sign": "+",
+            "label": "Focus",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+30 Work Time",
+            "sign": "+",
+            "label": "Work Time",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Get too into it = work takes longer."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Hiburan Latar",
+        "category": "Support",
+        "tag": "",
+        "desc": "Film atau musik yang diputar di samping. Memberi buff pada fokusmu selama grinding.",
+        "combo": "",
+        "statsRaw": "+50 Alur Kerja, +100 Fokus, +30 Waktu Kerja",
+        "stats": [
+          {
+            "raw": "+50 Alur Kerja",
+            "sign": "+",
+            "label": "Alur Kerja",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+100 Fokus",
+            "sign": "+",
+            "label": "Fokus",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+30 Waktu Kerja",
+            "sign": "+",
+            "label": "Waktu Kerja",
+            "value": 30,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Terlalu asyik menikmatinya = kerjaan jadi lebih lama selesainya."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 25,
+      "cat": "support",
+      "ko": {
+        "name": "행운의 클라이언트",
+        "category": "서포트",
+        "tag": "",
+        "desc": "언젠가 꼭 만나고 싶은 클라이언트. 말이 잘 통하고, 보수도 넉넉하고, 디자이너의 의견을 존중한다. 서로에게 도움이 되는 피드백까지 주고받을 수 있다.",
+        "combo": "",
+        "statsRaw": "+지갑 사정 100  +의견 수용 100",
+        "stats": [
+          {
+            "raw": "+지갑 사정 100",
+            "sign": "+",
+            "label": "지갑 사정",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+의견 수용 100",
+            "sign": "+",
+            "label": "의견 수용",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "꿈이다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "God-Tier Client",
+        "category": "Support",
+        "tag": "",
+        "desc": "The dream client. Easy to talk to, big bag, respects the designer. W feedback loop for both sides.",
+        "combo": "",
+        "statsRaw": "+100 Wallet, +100 Open Mind",
+        "stats": [
+          {
+            "raw": "+100 Wallet",
+            "sign": "+",
+            "label": "Wallet",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+100 Open Mind",
+            "sign": "+",
+            "label": "Open Mind",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "It's a dream."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Klien Tingkat Dewa",
+        "category": "Support",
+        "tag": "",
+        "desc": "Klien idaman. Enak diajak ngobrol, bayarannya gede, menghargai desainer. Siklus revisi/masukan yang sama-sama enak (W feedback).",
+        "combo": "",
+        "statsRaw": "+100 Dompet, +100 Pikiran Terbuka",
+        "stats": [
+          {
+            "raw": "+100 Dompet",
+            "sign": "+",
+            "label": "Dompet",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+100 Pikiran Terbuka",
+            "sign": "+",
+            "label": "Pikiran Terbuka",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Ini cuma mimpi."
+        ],
+        "notes": []
+      },
+      "related": []
+    },
+    {
+      "no": 26,
+      "cat": "support",
+      "ko": {
+        "name": "따봉 햄스터",
+        "category": "서포트",
+        "tag": "",
+        "desc": "귀엽다… 그저 귀여운 것만으로 스트레스를 줄여준다. 존재 자체가 위로인 동료 1.",
+        "combo": "같이 있음 좋은 친구: 쌍따봉 기니피그 (효과 극대화)",
+        "statsRaw": "+귀여움 100  +스트레스회복 50  +따봉 1",
+        "stats": [
+          {
+            "raw": "+귀여움 100",
+            "sign": "+",
+            "label": "귀여움",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+스트레스회복 50",
+            "sign": "+",
+            "label": "스트레스회복",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+따봉 1",
+            "sign": "+",
+            "label": "따봉",
+            "value": 1,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "en": {
+        "name": "Thumbs-Up Hamster",
+        "category": "Support",
+        "tag": "Good Friend",
+        "desc": "Cute... just cute. Heals stress just by being there. Bro#1 is just chilling.",
+        "combo": "Combo: Double Thumbs-Up Guinea Pig",
+        "statsRaw": "+100 Cute, +50 Stress Heal, +1 Thumbs Up",
+        "stats": [
+          {
+            "raw": "+100 Cute",
+            "sign": "+",
+            "label": "Cute",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Stress Heal",
+            "sign": "+",
+            "label": "Stress Heal",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+1 Thumbs Up",
+            "sign": "+",
+            "label": "Thumbs Up",
+            "value": 1,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "id": {
+        "name": "Hamster Jempol",
+        "category": "Support",
+        "tag": "Teman Baik",
+        "desc": "Imut... pokoknya imut. Menyembuhkan stres hanya dengan keberadaannya. Bro #1 lagi santai aja.",
+        "combo": "Kombo: Marmut Dua Jempol",
+        "statsRaw": "+100 Imut, +50 Penyembuh Stres, +1 Jempol",
+        "stats": [
+          {
+            "raw": "+100 Imut",
+            "sign": "+",
+            "label": "Imut",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Penyembuh Stres",
+            "sign": "+",
+            "label": "Penyembuh Stres",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+1 Jempol",
+            "sign": "+",
+            "label": "Jempol",
+            "value": 1,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "related": [
+        27
+      ]
+    },
+    {
+      "no": 27,
+      "cat": "support",
+      "ko": {
+        "name": "쌍따봉 기니피그",
+        "category": "서포트",
+        "tag": "",
+        "desc": "귀엽다… 그저 귀여운 것만으로 스트레스를 줄여준다. 존재 자체가 위로인 동료 2.",
+        "combo": "같이 있음 좋은 친구: 따봉 햄스터 (효과 극대화)",
+        "statsRaw": "+귀여움 100  +스트레스회복 50  +따봉 2",
+        "stats": [
+          {
+            "raw": "+귀여움 100",
+            "sign": "+",
+            "label": "귀여움",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+스트레스회복 50",
+            "sign": "+",
+            "label": "스트레스회복",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+따봉 2",
+            "sign": "+",
+            "label": "따봉",
+            "value": 2,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "en": {
+        "name": "Double Thumbs-Up Guinea Pig",
+        "category": "Support",
+        "tag": "Good Friend",
+        "desc": "Cute... heals stress. Bro #2 is just chilling.",
+        "combo": "Combo: Thumbs-Up Hamster",
+        "statsRaw": "+100 Cute, +50 Stress Heal, +2 Thumbs Up",
+        "stats": [
+          {
+            "raw": "+100 Cute",
+            "sign": "+",
+            "label": "Cute",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Stress Heal",
+            "sign": "+",
+            "label": "Stress Heal",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+2 Thumbs Up",
+            "sign": "+",
+            "label": "Thumbs Up",
+            "value": 2,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "id": {
+        "name": "Marmut Dua Jempol",
+        "category": "Support",
+        "tag": "Teman Baik",
+        "desc": "Imut... menyembuhkan stres. Bro #2 lagi santai aja.",
+        "combo": "Kombo: Hamster Jempol",
+        "statsRaw": "+100 Imut, +50 Penyembuh Stres, +2 Jempol",
+        "stats": [
+          {
+            "raw": "+100 Imut",
+            "sign": "+",
+            "label": "Imut",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Penyembuh Stres",
+            "sign": "+",
+            "label": "Penyembuh Stres",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+2 Jempol",
+            "sign": "+",
+            "label": "Jempol",
+            "value": 2,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [],
+        "notes": []
+      },
+      "related": [
+        26
+      ]
+    },
+    {
+      "no": 28,
+      "cat": "support",
+      "ko": {
+        "name": "무한 지지 친구",
+        "category": "서포트",
+        "tag": "",
+        "desc": "나를 한결같이 응원하고 지지해주는 친구. 한 명만 있어도 큰 힘이 되지만, 그 한 명을 만나기가 쉽지 않다.",
+        "combo": "",
+        "statsRaw": "+멘탈회복 100  +자신감 50",
+        "stats": [
+          {
+            "raw": "+멘탈회복 100",
+            "sign": "+",
+            "label": "멘탈회복",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+자신감 50",
+            "sign": "+",
+            "label": "자신감",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "\"도태의 공포\"가 함께 발동하면 진심 어린 응원마저 의심하게 된다.",
+          "1명 있을까 말까다 소중하다."
+        ],
+        "notes": []
+      },
+      "en": {
+        "name": "Ride or Die",
+        "category": "Support",
+        "tag": "",
+        "desc": "A friend who always backs you up. 1 is enough, but super rare to find.",
+        "combo": "",
+        "statsRaw": "+100 Mental Heal, +50 Confidence",
+        "stats": [
+          {
+            "raw": "+100 Mental Heal",
+            "sign": "+",
+            "label": "Mental Heal",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Confidence",
+            "sign": "+",
+            "label": "Confidence",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Left Behind hits = you doubt even their real support.",
+          "1 in a million, protect them at all costs."
+        ],
+        "notes": []
+      },
+      "id": {
+        "name": "Teman Sejati (Ride or Die)",
+        "category": "Support",
+        "tag": "",
+        "desc": "Teman yang selalu mendukungmu. Punya 1 saja cukup, tapi sangat langka untuk ditemukan.",
+        "combo": "",
+        "statsRaw": "+100 Penyembuh Mental, +50 Kepercayaan Diri",
+        "stats": [
+          {
+            "raw": "+100 Penyembuh Mental",
+            "sign": "+",
+            "label": "Penyembuh Mental",
+            "value": 100,
+            "unit": "",
+            "note": ""
+          },
+          {
+            "raw": "+50 Kepercayaan Diri",
+            "sign": "+",
+            "label": "Kepercayaan Diri",
+            "value": 50,
+            "unit": "",
+            "note": ""
+          }
+        ],
+        "side": [
+          "Saat kena Left Behind = kamu bahkan meragukan dukungan tulus mereka.",
+          "Satu banding sejuta, lindungi mereka dengan segala cara."
+        ],
+        "notes": []
+      },
+      "related": [
+        22
+      ]
+    }
+  ]
+}

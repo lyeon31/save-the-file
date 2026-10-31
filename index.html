@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Save The File ★1</title>
+  <meta name="description" content="프리랜서 그래픽 디자이너의 첫 1년을 게임 도감처럼 정리한 아트북 『Save The File ★1』">
+  <meta name="theme-color" content="#4fb2ec">
+  <meta property="og:title" content="Save The File ★1">
+  <meta property="og:description" content="프리랜서 1년은 튜토리얼 없는 게임이었다.">
+  <meta property="og:image" content="https://lyeon31.github.io/save-the-file/assets/PNG/2.png">
+  <meta property="og:url" content="https://lyeon31.github.io/save-the-file/">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/PNG/2.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap">
+  <link rel="preload" href="data/intro.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 데스크톱 전용: 창 바깥 배경 장식 (휴대폰에서는 숨김 → 지연 로딩이라 내려받지도 않음) -->
+  <div class="desk-deco" aria-hidden="true">
+    <picture><source srcset="assets/webp/3.webp" type="image/webp"><img class="dd dd-3" src="assets/PNG/3.png" alt="" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="assets/webp/4.webp" type="image/webp"><img class="dd dd-4" src="assets/PNG/4.png" alt="" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="dd dd-6a" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="dd dd-6b" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="dd dd-6c" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
+  </div>
+
+  <div class="window" id="app">
+
+    <!-- 제목 표시줄 -->
+    <header class="titlebar">
+      <span class="tb-title">Save The File</span>
+<div class="lang-group" id="langGroup" role="group" aria-label="Language">
+        <button class="lang-btn" type="button" data-lang="ko" lang="ko" aria-label="한국어">KO</button>
+        <button class="lang-btn" type="button" data-lang="en" lang="en" aria-label="English">EN</button>
+        <button class="lang-btn" type="button" data-lang="id" lang="id" aria-label="Bahasa Indonesia">ID</button>
+      </div>
+    </header>
+
+    <!-- 1.png 줄무늬 띠 -->
+    <div class="stripe" aria-hidden="true"></div>
+
+    <div class="body">
+      <!-- 창 안쪽 배경 장식 (본문 뒤, 흐리게) -->
+      <div class="deco" aria-hidden="true">
+        <picture><source srcset="assets/webp/3.webp" type="image/webp"><img class="deco-3" src="assets/PNG/3.png" alt="" decoding="async" fetchpriority="low"></picture>
+        <picture><source srcset="assets/webp/4.webp" type="image/webp"><img class="deco-4" src="assets/PNG/4.png" alt="" decoding="async" fetchpriority="low"></picture>
+        <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="deco-6" src="assets/PNG/6.png" alt="" decoding="async" fetchpriority="low"></picture>
+      </div>
+
+      <main class="viewport" id="viewport">
+
+        <!-- ============ HOME ============ -->
+        <section class="view" id="view-home" data-view="home">
+          <p class="sys-line"><span>C:\SAVE_THE_FILE\</span><span class="blink">_</span></p>
+
+          <h1 class="home-logo">
+            <picture><source srcset="assets/webp/2.webp" type="image/webp"><img src="assets/PNG/2.png" alt="Save The File ★1" width="748" height="519" fetchpriority="high"></picture>
+          </h1>
+
+          <div class="home-hero">
+            <picture><source srcset="assets/webp/5.webp" type="image/webp"><img class="home-char" src="assets/PNG/5.png" alt="" width="1005" height="1014" decoding="async"></picture>
+            <p class="sys-chip">PLAYER 1 · READY</p>
+          </div>
+
+          <article class="panel readme">
+            <header class="panel-bar"><span>README.TXT</span><span class="panel-dots" aria-hidden="true"><i></i><i></i></span></header>
+            <div class="panel-body">
+              <p class="readme-note" id="introNote" hidden></p>
+              <div class="readme-lines" id="introLines"></div>
+            </div>
+          </article>
+
+          <p class="divider" aria-hidden="true">★ ☆ ★</p>
+
+          <section class="carts" aria-labelledby="cartTitle">
+            <h2 class="sec-title" id="cartTitle">
+              <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="sec-star" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
+              SELECT CARTRIDGE
+            </h2>
+            <p class="sec-hint" data-t="cartHint"></p>
+            <div class="cart-track" id="cartTrack"></div>
+            <div class="cart-dots" id="cartDots"></div>
+          </section>
+
+          <p class="divider" aria-hidden="true">★ ☆ ★</p>
+
+          <footer class="home-foot">
+            <p class="sys-line">SAVE SLOT 01 · <span id="metaAuthor"></span></p>
+            <ul class="meta-list" id="metaList"></ul>
+            <p class="sys-line dim">NOW... UPDATING<span class="blink">_</span></p>
+          </footer>
+        </section>
+
+        <!-- ============ BOOK VIEWS (다음 단계에서 채움) ============ -->
+        <section class="view" id="view-keyword" data-view="keyword" data-book="keyword" hidden></section>
+        <section class="view" id="view-item" data-view="item" data-book="item" hidden></section>
+        <section class="view" id="view-youdidit" data-view="youdidit" data-book="youdidit" hidden></section>
+      </main>
+    </div>
+
+    <!-- 하단 탭 바 -->
+    <nav class="tabbar" aria-label="메뉴">
+      <a class="tab" href="#/home" data-tab="home">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1L15 8H13V15H10V10H6V15H3V8H1Z"/></svg>
+        <span>Home</span>
+      </a>
+      <a class="tab" href="#/keyword" data-tab="keyword">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1 2H15V11H8L4 15V11H1Z"/></svg>
+        <span>KEYWORD</span>
+      </a>
+      <a class="tab" href="#/item" data-tab="item">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M5 4V1H11V4H15V15H1V4ZM7 3V4H9V3Z"/></svg>
+        <span>ITEM</span>
+      </a>
+      <a class="tab" href="#/youdidit" data-tab="youdidit">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1H13V3H16V7H12L10 9V11H12V15H4V11H6V9L4 7H0V3H3Z"/></svg>
+        <span>YOU DID IT</span>
+      </a>
+    </nav>
+
+    <!-- 업적 달성 토스트 -->
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+      <img class="toast-icon" id="toastIcon" alt="" width="1005" height="1014">
+      <p class="toast-text" id="toastText"></p>
+    </div>
+
+    <!-- 바텀 시트 (상세 보기) -->
+    <div class="sheet-layer" id="sheetLayer" hidden>
+      <div class="sheet-backdrop" id="sheetBackdrop"></div>
+      <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1">
+        <div class="sheet-grab" id="sheetGrab">
+          <span class="sheet-handle" aria-hidden="true"></span>
+          <button class="sheet-close" id="sheetClose" type="button" aria-label="닫기"><span class="orb orb-close" aria-hidden="true">✕</span></button>
+        </div>
+        <div class="sheet-body" id="sheetBody"></div>
+      </section>
+    </div>
+
+    <!-- LOADING 화면 -->
+    <div class="loading" id="loading" hidden>
+      <div class="loading-box">
+        <img class="loading-char" id="loadingChar" alt="" width="1005" height="1014" decoding="async">
+        <p class="loading-title">LOADING...</p>
+        <div class="loading-bar"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <p class="loading-sub" id="loadingSub">PLEASE WAIT</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

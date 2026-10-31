@@ -1,0 +1,1416 @@
+{
+  "id": "keyword",
+  "intro": {
+    "ko": [
+      "프리랜서가 되고 많은 사람들과 대화하다 보니 자주 쓰는 말이 생겼다.",
+      "단어 하나일 뿐인데, 그 안에는 생각보다 많은 뜻이 숨어 있었다.",
+      "1년 동안 내가 쓴 말버릇과 채팅에서 마주친 말들을 모아, 그 안에 담긴 뜻을 정리해보았다.",
+      "누군가는 공감할 수도 있고, 다르게 읽을 수도 있다.",
+      "",
+      "시간이 지나면 나에게도 이 말들의 뜻이 달라질 것이다.",
+      "그래도 자주 사용하는 말들을 저장하고 싶다.",
+      "다음 기록과 비교해 볼 첫번째 저장이다."
+    ],
+    "en": [
+      "Since becoming a freelancer, I've noticed words and phrases I use often when talking to people.",
+      "Even a single word can mean more than I expected.",
+      "I collected my own go-to phrases and expressions I came across in chats over a year, then explored the meanings behind them. Some people may relate; others may read them differently.",
+      "Over time, what these words mean to me may change, too. Still, I want to save the ones I use often.",
+      "This is my first saved record—something to compare with the next."
+    ],
+    "id": [
+      "Sejak menjadi freelancer, saya menyadari ada kata-kata dan frasa yang sering saya gunakan saat berbicara dengan orang lain.",
+      "Bahkan satu kata saja bisa memiliki makna lebih dari yang saya kira.",
+      "Saya mengumpulkan frasa dan ungkapan andalan saya yang sering saya temui di chat selama setahun, lalu mengeksplorasi makna di baliknya. Beberapa orang mungkin merasa terhubung (relatable); yang lain mungkin mengartikannya berbeda.",
+      "Seiring berjalannya waktu, makna kata-kata ini bagi saya mungkin juga berubah. Namun, saya ingin menyimpan (save) kata-kata yang sering saya gunakan ini.",
+      "Ini adalah catatan tersimpan pertama saya—sesuatu untuk dibandingkan dengan yang berikutnya."
+    ]
+  },
+  "items": [
+    {
+      "no": 1,
+      "ko": {
+        "title": "넵",
+        "category": "만능생존표현",
+        "meaning": "디자이너가 살아남기 위해 사용하는 사회생활 반응어. 상황에 따라 의미가 달라지기도 하고 추가되기도 한다. 이해보다 대답이 빨라야 할 때 특히 유용하다.",
+        "list": [
+          "네 — 화나 보임.",
+          "넹 — 안 친한 사이에 쓰면 신뢰도 -100",
+          "네네 — '넵!'을 너무 많이 썼을 때를 위해 아껴둠.",
+          "넥 — 슬라이스."
+        ],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"오늘 안에 가능할까요?\" → \"넵!\" (잘 모르겠음 일단 함)"
+        ],
+        "roman": "Nep!"
+      },
+      "en": {
+        "title": "Yep",
+        "category": "All-Purpose Survival Expression",
+        "meaning": "The ultimate survival word for designers. The meaning changes depending on the situation. It is very useful when you need to answer faster than you can understand.",
+        "list": [
+          "Yes — Looks a little angry..",
+          "Yepp — If you are not close to the person, you lose 100 trust points.",
+          "Yes yes — Saved for when you have used \"Yep!\" too many times.",
+          "Yek — A typo."
+        ],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Can you finish this today?\" → Yep!\" (I don't know, but I'll try)"
+        ],
+        "original": "넵!"
+      },
+      "id": {
+        "title": "Siap",
+        "category": "Ungkapan Bertahan Hidup Serbaguna",
+        "meaning": "Kata bertahan hidup paling mutakhir untuk desainer. Maknanya berubah tergantung situasi. Sangat berguna saat kamu harus menjawab lebih cepat daripada kemampuanmu mencerna informasi.",
+        "list": [
+          "Siap — Kelihatan agak marah..",
+          "Siapp — Kalau kamu kurang akrab dengan orangnya, kamu kehilangan 100 poin kepercayaan.",
+          "Siap siap — Disimpan untuk saat kamu sudah terlalu sering pakai \"Siap!\".",
+          "Siap (typo misal: Sipa) — Typo."
+        ],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Bisa selesai hari ini?\" → Siap!\" (Nggak tahu sih, tapi kucoba)"
+        ],
+        "original": "넵!"
+      }
+    },
+    {
+      "no": 2,
+      "ko": {
+        "title": "네 지금 시간 괜찮아요",
+        "category": "무한긍정표현",
+        "meaning": "일단 일을 받는 게 중요해서, 일정부터 괜찮다고 말하는 표현. 대답할 때는 무한 긍정인데, 막상 시작하면 시간이 부족하다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "일정 맞출 수 있어요",
+          "충분히 가능해요"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"네 지금 시간 괜찮아요!\" (밤샘 확정)"
+        ],
+        "roman": "Ne Jigeum Sigan Gwaenchanayo!"
+      },
+      "en": {
+        "title": "Yes, I have time right now!",
+        "category": "Infinite Positivity Expression",
+        "meaning": "A phrase to say your schedule is fine because getting the job is the most important thing. You answer with 100% positivity, but once you start, you don't have enough time.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Yes, I have time right now!\" (Guaranteed all-nighter)"
+        ],
+        "original": "네 지금 시간 괜찮아요"
+      },
+      "id": {
+        "title": "Ya, saya ada waktu sekarang!",
+        "category": "Ungkapan Positif Tanpa Batas",
+        "meaning": "Frasa untuk mengatakan jadwalmu aman karena mendapatkan proyek adalah hal yang paling penting. Kamu menjawab dengan 100% kepositifan, tapi begitu mulai, waktumu nggak pernah cukup.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ya, saya ada waktu sekarang!\" (Dijamin bakal begadang)"
+        ],
+        "original": "네 지금 시간 괜찮아요"
+      }
+    },
+    {
+      "no": 3,
+      "ko": {
+        "title": "괜찮으실까요?",
+        "category": "간절확인표현",
+        "meaning": "내 일정이나 제안을 꺼내며 상대의 동의를 구하는 말. 선택권을 건네지만, 마음속으로는 이미 원하는 답이 있다.",
+        "list": [],
+        "hidden": [
+          "저는 괜찮은데, 당신도 괜찮나요?",
+          "제 사정을 조금만 봐주세요.",
+          "제발 괜찮다고 해주세요."
+        ],
+        "synonyms": [
+          "가능하실까요?"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"지금 진행 중인 프로젝트가 있어서요. 그 일이 끝난 뒤에 시작해도 괜찮으실까요?\" (제발 yes)"
+        ],
+        "roman": "Gwaenchaneusilkkayo?"
+      },
+      "en": {
+        "title": "Would this be okay?",
+        "category": "Desperate Confirmation Expression",
+        "meaning": "Asking for the other person's agreement when suggesting your own schedule or idea. You give them a choice, but you already know the answer you want in your heart.",
+        "list": [],
+        "hidden": [
+          "\"I am okay, are you okay?\"",
+          "\"Please cut me some slack.\"",
+          "\"Please just say yes.\""
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"I am working on another project right now. Would it be okay to start after that is finished?\" (Please say yes)"
+        ],
+        "original": "괜찮으실까요?"
+      },
+      "id": {
+        "title": "Apakah ini tidak apa-apa?",
+        "category": "Ungkapan Konfirmasi Putus Asa",
+        "meaning": "Meminta persetujuan orang lain saat menyarankan jadwal atau idemu sendiri. Kamu memberi mereka pilihan, tapi dalam hati kamu sudah tahu jawaban yang kamu inginkan.",
+        "list": [],
+        "hidden": [
+          "\"Aku sih oke, kamu oke nggak?\"",
+          "\"Tolong kasih aku kelonggaran.\"",
+          "\"Tolong bilang aja iya.\""
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Saya sedang mengerjakan proyek lain saat ini. Apakah tidak apa-apa kalau mulai setelah itu selesai?\" (Tolong bilang iya)"
+        ],
+        "original": "괜찮으실까요?"
+      }
+    },
+    {
+      "no": 4,
+      "ko": {
+        "title": "간단한 작업이에요",
+        "category": "클라이언트어 / 과소평가형 표현",
+        "meaning": "작업의 난이도와 분량을 작게 느끼게 하는 표현. 듣기에는 간단하지만, 시작하고 나면 생각보다 손이 많이 간다. \"간단하다\"의 기준이 서로 다를 수 있다는 신호.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "금방 하실 거예요",
+          "잠깐만 봐주세요"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"간단한 작업이에요\" (간단하지 않음)"
+        ],
+        "roman": "Gandanhan Jageobieyo"
+      },
+      "en": {
+        "title": "It's a simple task",
+        "category": "Client Speak / Underestimating Expression",
+        "meaning": "A phrase clients use to make the work seem small and easy. It sounds simple, but once you start, it takes a lot of effort. It is a sign that your definition of \"simple\" might be different from theirs.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"It's a simple task.\" (It is not simple)"
+        ],
+        "original": "간단한 작업이에요"
+      },
+      "id": {
+        "title": "Ini kerjaan simpel",
+        "category": "Bahasa Klien / Ungkapan Meremehkan",
+        "meaning": "Frasa yang digunakan klien untuk membuat pekerjaan terlihat kecil dan mudah. Kedengarannya simpel, tapi begitu dikerjakan, butuh banyak tenaga. Ini pertanda bahwa definisimu tentang \"simpel\" mungkin berbeda dengan mereka.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ini kerjaan simpel.\" (Ini sama sekali tidak simpel)"
+        ],
+        "original": "간단한 작업이에요"
+      }
+    },
+    {
+      "no": 5,
+      "ko": {
+        "title": "!",
+        "category": "억양 기호",
+        "meaning": "채팅에 억양을 넣는 기호. 마침표만 쓰면 딱딱해 보일 때 사용한다. 강조뿐 아니라 열심히 듣고 있다는 인상을 전하는 데도 쓴다. 과하게 쓰면 부담스러울 수 있다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [
+          "~"
+        ],
+        "caution": "너무 자주 쓰면, 안 쓰는 순간 화나 보인다.",
+        "examples": [
+          "\"안녕하세요! 잘 부탁드립니다!\" (열심히 하는 느낌)",
+          "\"안녕하세요 잘 부탁드립니다\" (딱딱함, 약간 화나 보임)"
+        ],
+        "roman": "!"
+      },
+      "en": {
+        "title": "!",
+        "category": "Intonation Mark",
+        "meaning": "A mark to add emotion in chats. Used when a simple period (.) looks too cold. It shows emphasis and gives the impression that you are listening hard. If you use it too much, it can feel like a burden.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "If you use it all the time and then suddenly stop, you look angry.",
+        "examples": [
+          "\"Hello! I look forward to working with you!\" (Looks like you are working hard)"
+        ],
+        "original": "!"
+      },
+      "id": {
+        "title": "!",
+        "category": "Tanda Intonasi",
+        "meaning": "Tanda untuk menambah emosi di chat. Digunakan saat titik (.) biasa terlihat terlalu dingin. Menunjukkan penekanan dan memberi kesan bahwa kamu mendengarkan dengan saksama. Kalau dipakai berlebihan, bisa terasa membebani.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "Kalau kamu selalu memakainya lalu tiba-tiba berhenti, kamu kelihatan marah.",
+        "examples": [
+          "\"Halo! Saya tak sabar bekerja sama dengan Anda!\" (Kelihatan seperti kamu bekerja keras)"
+        ],
+        "original": "!"
+      }
+    },
+    {
+      "no": 6,
+      "ko": {
+        "title": "~",
+        "category": "완충기호",
+        "meaning": "느낌표와 함께 자주 쓰는 기호. 말을 유하고 부드럽게 만드는 완충재다. 물결표를 쓰면 늙은이라는 말을 듣고 큰 충격을 받았다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [
+          "!, ㅎㅎ"
+        ],
+        "caution": "많이 쓰면 노래하는 느낌이 든다.",
+        "examples": [
+          "\"안녕하세요~ 잘 부탁드립니다!\" (!와 ~를 섞어 씀. 부드러워 보임.)"
+        ],
+        "roman": "~"
+      },
+      "en": {
+        "title": "~",
+        "category": "Buffer Mark",
+        "meaning": "Often used with the exclamation mark (!). It makes your words softer and smoother. I was shocked to hear that using \"~\" makes you look old.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "If you use it too much, it sounds like you are singing.",
+        "examples": [
+          "\"Hello~ I look forward to working with you!\" (Soft and polite)"
+        ],
+        "original": "~"
+      },
+      "id": {
+        "title": "~",
+        "category": "Tanda Penyangga (Buffer)",
+        "meaning": "Sering digunakan bersama tanda seru (!). Membuat kata-katamu terasa lebih lembut dan mengalir. Saya kaget saat dengar kalau pakai \"~\" bikin kamu kelihatan tua.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "Kalau dipakai berlebihan, kamu kedengaran kayak lagi nyanyi.",
+        "examples": [
+          "\"Halo~ Saya tak sabar bekerja sama dengan Anda!\" (Lembut dan sopan)"
+        ],
+        "original": "~"
+      }
+    },
+    {
+      "no": 7,
+      "ko": {
+        "title": "ㅎㅎ",
+        "category": "무마 기호",
+        "meaning": "어색한 순간을 부드럽게 넘기거나, 말투를 한층 더 다정하게 만들고 싶을 때 쓰는 웃음 표현. 딱딱해 보이는 문장도 끝에 'ㅎㅎ'를 붙이면 조금은 편안해진다. 꼭 웃겨서 쓰는 건 아니다..",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "~"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"아 그 부분은 제가 놓쳤네요ㅎㅎ\" (사실 식은땀)"
+        ],
+        "roman": "Hehe"
+      },
+      "en": {
+        "title": "Hehe",
+        "category": "Smoothing Mark",
+        "meaning": "A laugh used to get past awkward moments smoothly, or to make your tone sweeter. Even a cold sentence looks softer if you add \"hehe\" at the end. You don't only use it when something is actually funny.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ah, I guess I missed that part hehe\" (Actually sweating)"
+        ],
+        "original": "ㅎㅎ"
+      },
+      "id": {
+        "title": "Hehe",
+        "category": "Tanda Penghalus",
+        "meaning": "Tawa yang digunakan untuk melewati momen canggung dengan mulus, atau untuk membuat nadamu lebih manis. Bahkan kalimat dingin pun terlihat lebih lembut kalau ditambah \"hehe\" di akhir. Kamu tidak cuma memakainya saat ada sesuatu yang benar-benar lucu.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ah, sepertinya saya melewatkan bagian itu hehe\" (Sebenarnya lagi keringat dingin)"
+        ],
+        "original": "ㅎㅎ"
+      }
+    },
+    {
+      "no": 8,
+      "ko": {
+        "title": "...",
+        "category": "조심 기호",
+        "meaning": "말 사이에 조심스러움과 망설임을 넣는 기호. 꺼내기 어렵지만 짚고 넘어가고 싶은 이야기가 있을 때 쓴다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [
+          "ㅎㅎ"
+        ],
+        "caution": "",
+        "examples": [
+          "\"혹시… 이런 식으로 진행해 보는 건 어떨까요...?\" (사실 이게 맞다고 생각함)"
+        ],
+        "roman": "..."
+      },
+      "en": {
+        "title": "...",
+        "category": "Cautious Mark",
+        "meaning": "A mark that adds caution and hesitation between words. Used when you have something difficult to say but you need to bring it up.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"By any chance... how about we try doing it this way...?\" (I actually think this is the right way)"
+        ],
+        "original": "..."
+      },
+      "id": {
+        "title": "...",
+        "category": "Tanda Hati-hati",
+        "meaning": "Tanda yang menambah kehati-hatian dan keraguan di antara kata-kata. Digunakan saat ada hal sulit yang harus dikatakan, tapi kamu tetap harus menyampaikannya.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Kalau boleh tahu... bagaimana kalau kita coba cara ini...?\" (Sebenarnya aku yakin ini cara yang benar)"
+        ],
+        "original": "..."
+      }
+    },
+    {
+      "no": 9,
+      "ko": {
+        "title": "혹시",
+        "category": "말문 개시어",
+        "meaning": "말을 어떻게 꺼낼지 망설여질 때 문장 앞에 붙이는 말. 부탁이나 질문을 바로 던지기 부담스러울 때 쓰면 조금 더 조심스럽게 들린다. '혹시'로 시작하지만, 뒤에 할 말은 이미 정해져 있다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "혹시나 / 다름이 아니라"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"혹시… 이거 피드백이 언제 올까요?\" (일주일째 기다리는 중)"
+        ],
+        "roman": "Hoksi"
+      },
+      "en": {
+        "title": "By any chance...",
+        "category": "Conversation Starter",
+        "meaning": "A word you put at the front when you don't know how to start a sentence. If it feels too heavy to just ask a question or a favor, this makes it sound more careful. You say \"by any chance,\" but you already know exactly what you want to say.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"By any chance... when will I get the feedback?\" (I have been waiting for a week)"
+        ],
+        "original": "혹시"
+      },
+      "id": {
+        "title": "Kalau boleh tahu...",
+        "category": "Pembuka Percakapan",
+        "meaning": "Kata yang kamu taruh di depan saat kamu tidak tahu cara memulai kalimat. Kalau terasa terlalu berat untuk langsung bertanya atau minta tolong, ini membuatnya terdengar lebih hati-hati. Kamu bilang \"kalau boleh tahu\", tapi kamu sudah tahu persis apa yang mau diomongin.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Kalau boleh tahu... kapan saya bisa dapat revisinya?\" (Aku udah nunggu seminggu nih)"
+        ],
+        "original": "혹시"
+      }
+    },
+    {
+      "no": 10,
+      "ko": {
+        "title": "일단 던지는 건데",
+        "category": "방어형 표현",
+        "meaning": "평가받기 전에 미리 방어막을 치는 표현. 별 기대하지 말라는 척하지만, 사실은 상대의 반응을 몹시 신경 쓰고 있다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [
+          "막연하게 이런 느낌? / 아직 러프긴 한데요 / 느낌만 봐주세요"
+        ],
+        "caution": "",
+        "examples": [
+          "\"일단 던지는 건데요~\" (생각 해둔건데 마치 떠오른것처럼)"
+        ],
+        "roman": "Ildan Deonjineun Geonde"
+      },
+      "en": {
+        "title": "I'm just throwing this out there...",
+        "category": "Defensive Expression",
+        "meaning": "A shield you put up before someone judges your work. You act like you don't expect much, but you actually care a lot about their reaction.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"I'm just throwing this out there...\" (I thought about this a lot, but I act like it just popped into my head)"
+        ],
+        "original": "일단 던지는 건데"
+      },
+      "id": {
+        "title": "Aku cuma asal lempar ide aja...",
+        "category": "Ungkapan Defensif",
+        "meaning": "Tameng yang kamu pasang sebelum seseorang menilai karyamu. Kamu bersikap seolah tidak berharap banyak, tapi sebenarnya kamu sangat peduli dengan reaksi mereka.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Aku cuma asal lempar ide aja...\" (Aku mikirin ini matang-matang, tapi pura-pura baru kepikiran)"
+        ],
+        "original": "일단 던지는 건데"
+      }
+    },
+    {
+      "no": 11,
+      "ko": {
+        "title": "뭔가",
+        "category": "미확정 표현",
+        "meaning": "머릿속에 느낌은 있지만 아직 말로 정리되지 않은 상태. 클라이언트가 쓰면 수정이 시작될 것 같은 말.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "왠지 / 어딘가"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"뭔가 좀 추가되면 좋을거같지않나요??\""
+        ],
+        "roman": "Mwonga"
+      },
+      "en": {
+        "title": "Something like...",
+        "category": "Unconfirmed Expression",
+        "meaning": "You have a feeling in your head, but you haven't organized it into words yet. If the client uses this word, it is a sign that revisions are coming.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Don't you think it needs something like a little more to it??\""
+        ],
+        "original": "뭔가"
+      },
+      "id": {
+        "title": "Kayaknya ada yang...",
+        "category": "Ungkapan Belum Pasti",
+        "meaning": "Kamu punya firasat/ide di kepala, tapi belum menyusunnya jadi kata-kata. Kalau klien pakai kata ini, itu pertanda revisi akan datang.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Menurutmu ini kayaknya butuh ditambahin sesuatu nggak sih??\""
+        ],
+        "original": "뭔가"
+      }
+    },
+    {
+      "no": 12,
+      "ko": {
+        "title": "약간",
+        "category": "완충 단위",
+        "meaning": "정하기 부담스러울 때 앞에 깔아두는 쿠션어다. 수정할 부분이 많아도 앞에 '약간'을 붙이면 작은 부탁처럼 들린다. 말의 무게는 줄여주지만, 실제 작업량까지 줄여주지는 않는다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "살짝 / 조금"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"약간만 수정하면 될 것 같아요\" (전부 다시 함)"
+        ],
+        "roman": "Yakgan"
+      },
+      "en": {
+        "title": "A little bit",
+        "category": "Buffer Unit",
+        "meaning": "A cushion word used when it's hard to make a firm decision. Even if there are a lot of things to fix, putting \"a little bit\" in front makes it sound like a small favor. It makes the words feel lighter, but it doesn't make the actual work lighter.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"I think we just need to change it a little bit.\" (You have to redo everything)"
+        ],
+        "original": "약간"
+      },
+      "id": {
+        "title": "Sedikit",
+        "category": "Unit Penyangga (Buffer)",
+        "meaning": "Kata bantalan yang digunakan saat sulit membuat keputusan tegas. Meskipun ada banyak hal yang harus diperbaiki, menaruh kata \"sedikit\" di depan membuatnya terdengar seperti permintaan kecil. Bikin kata-katanya terasa lebih ringan, tapi nggak bikin kerjaan aslinya jadi ringan.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Sepertinya kita cuma perlu ubah sedikit.\" (Kamu harus rombak semuanya)"
+        ],
+        "original": "약간"
+      }
+    },
+    {
+      "no": 13,
+      "ko": {
+        "title": "제가 봤을 때는",
+        "category": "은근 추천 표현",
+        "meaning": "의견을 물었을 때 조심스럽게 내 선택을 추천하는 말. 나는 이런 의견을 갖고 있어 사실 내가 미는 시안을 밀거지만 너의 선택을 존중해.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "개인적으로는 / 제 생각에는"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"제가 봤을 때는 이 시안이 좀 더 나아 보이는데요~\" (이미 마음속 1순위)"
+        ],
+        "roman": "Jega Bwasseul Ttaeneun"
+      },
+      "en": {
+        "title": "The way I see it...",
+        "category": "Subtle Recommendation Expression",
+        "meaning": "A careful way to recommend your choice when someone asks for your opinion. \"I have this opinion, and I am going to push for the design I like, but I respect your choice.\"",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"The way I see it, this design looks a bit better~\" (This is already my #1 choice in my heart)"
+        ],
+        "original": "제가 봤을 때는"
+      },
+      "id": {
+        "title": "Kalau menurutku sih...",
+        "category": "Ungkapan Rekomendasi Halus",
+        "meaning": "Cara hati-hati untuk merekomendasikan pilihanmu saat seseorang meminta pendapat. \"Aku punya pendapat ini, dan aku akan mendorong desain yang kusuka, tapi aku menghargai pilihanmu.\"",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Kalau menurutku sih, desain yang ini kelihatan sedikit lebih bagus~\" (Ini sudah jadi pilihan #1 di hatiku)"
+        ],
+        "original": "제가 봤을 때는"
+      }
+    },
+    {
+      "no": 14,
+      "ko": {
+        "title": "알겠습니다",
+        "category": "다의적 수용어",
+        "meaning": "상대의 말이나 요청을 이해하고 받아들였음을 전하는 말. 같은 대답이어도 동의한 정도와 다음 행동은 다를 수 있다.",
+        "list": [],
+        "hidden": [
+          "정말 이해했고, 의견에도 동의한다.",
+          "다른 생각이 있지만 일단 받아들인다. 시안 두 개로 다시 설득할 예정.",
+          "빨리 수정해서 다음 피드백을 받으려 한다."
+        ],
+        "synonyms": [
+          "확인했습니다 / 반영하겠습니다"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"넵! 알겠습니다\" (이미 수정 시작함)"
+        ],
+        "roman": "Algetseumnida"
+      },
+      "en": {
+        "title": "Understood",
+        "category": "Multi-meaning Acceptance Word",
+        "meaning": "A phrase to say you understand and accept their request. The answer is the same, but the level of agreement and your next actions might be different.",
+        "list": [],
+        "hidden": [
+          "I completely understand and agree with your opinion.",
+          "I have a different idea, but I accept this for now. I will try to persuade you with two designs later.",
+          "I am going to fix this really fast so I can get the next feedback."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Yep! Understood.\" (I already started fixing it)"
+        ],
+        "original": "알겠습니다"
+      },
+      "id": {
+        "title": "Baik, dimengerti",
+        "category": "Kata Penerimaan Multi-Makna",
+        "meaning": "Frasa untuk mengatakan kamu mengerti dan menerima permintaan mereka. Jawabannya sama, tapi tingkat persetujuan dan tindakanmu selanjutnya bisa berbeda.",
+        "list": [],
+        "hidden": [
+          "Aku sepenuhnya mengerti dan setuju dengan pendapatmu.",
+          "Aku punya ide berbeda, tapi aku terima ini dulu. Aku akan coba meyakinkanmu pakai dua desain nanti.",
+          "Aku bakal benerin ini cepet banget biar bisa dapet feedback selanjutnya."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Siap! Dimengerti.\" (Aku udah mulai ngebenerin)"
+        ],
+        "original": "알겠습니다"
+      }
+    },
+    {
+      "no": 15,
+      "ko": {
+        "title": "일단 이걸로 갈게요",
+        "category": "임시 확정 표현",
+        "meaning": "확정처럼 들리지만 바뀔 여지가 남아 있는 말. 더 생각하기 힘들어서 일단 결정해 두는 기술.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "우선 이 방향으로 / 이걸로 진행해볼게요 / 일단 픽할게요"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"일단 이걸로 갈게요!\" (내일 다시 바뀜)"
+        ],
+        "roman": "Ildan Igeollo Galgeyo"
+      },
+      "en": {
+        "title": "Let's go with this for now",
+        "category": "Temporary Confirmation Expression",
+        "meaning": "It sounds like a final decision, but it leaves room to change. A skill used to just make a decision because it is too hard to think anymore.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Let's go with this for now!\" (It will change again tomorrow)"
+        ],
+        "original": "일단 이걸로 갈게요"
+      },
+      "id": {
+        "title": "Kita pakai ini dulu aja",
+        "category": "Ungkapan Konfirmasi Sementara",
+        "meaning": "Kedengarannya seperti keputusan final, tapi menyisakan ruang untuk berubah. Skill yang dipakai buat sekadar ambil keputusan karena udah terlalu capek mikir.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Kita pakai ini dulu aja!\" (Besok bakal berubah lagi)"
+        ],
+        "original": "일단 이걸로 갈게요"
+      }
+    },
+    {
+      "no": 16,
+      "ko": {
+        "title": "OO님.",
+        "category": "클라이언트어 / 호출어 / 공포어",
+        "meaning": "클라이언트가 이름만 먼저 부를 때의 호출어. 다음에 무슨 말이 올지 몰라 긴장하게 된다. 상대가 입력하는 시간이 길어질수록 불안도 커진다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "혹시 지금 통화 가능하실까요? / 디자이너님 잠깐만요"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"OO님.\" (그리고 3분째 입력 중…)"
+        ],
+        "roman": "-nim."
+      },
+      "en": {
+        "title": "[Name].",
+        "category": "Client Speak / Summoning Word / Fear Word",
+        "meaning": "When the client just calls your name and says nothing else. You get tense because you don't know what they will say next. The longer they take to type the next message, the bigger your fear grows.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Mr. Kim.\" (And they are typing for 3 minutes...)"
+        ],
+        "original": "OO님."
+      },
+      "id": {
+        "title": "[Nama].",
+        "category": "Bahasa Klien / Kata Pemanggil / Kata Pemicu Takut",
+        "meaning": "Saat klien cuma memanggil namamu tanpa ngomong apa-apa lagi. Kamu jadi tegang karena nggak tahu apa yang bakal mereka omongin selanjutnya. Semakin lama mereka mengetik pesan berikutnya, semakin besar rasa takutmu.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Mas Kim.\" (Dan mereka statusnya 'mengetik' selama 3 menit...)"
+        ],
+        "original": "OO님."
+      }
+    },
+    {
+      "no": 17,
+      "ko": {
+        "title": "네, 무슨 일일까요?",
+        "category": "긴장 진입 표현",
+        "meaning": "아무 일도 없기를 바라며 긴장 상태에 들어가는 말. 뭐든 해결할 수 있다는 듯 차분하게 답하지만, 속은 이미 멘헤라가 된다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "네, 말씀하세요! / 네, 편하게 말씀 주세요"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"OO님.\" → \"네, 무슨 일일까요?\" (멘헤라 가동)"
+        ],
+        "roman": "Ne, Museun Irilkkayo?"
+      },
+      "en": {
+        "title": "Yes, what is it?",
+        "category": "Entering Tension Expression",
+        "meaning": "A phrase you say while entering a state of tension, hoping nothing is wrong. You answer calmly like you can fix anything, but inside you are freaking out.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Mr. Kim.\" → \"Yes, what is it?\" (Panic mode activated)"
+        ],
+        "original": "네, 무슨 일일까요?"
+      },
+      "id": {
+        "title": "Ya, ada apa?",
+        "category": "Ungkapan Memasuki Ketegangan",
+        "meaning": "Frasa yang kamu ucapkan saat memasuki kondisi tegang, berharap tidak ada yang salah. Kamu menjawab dengan tenang seolah bisa memperbaiki apa saja, padahal di dalam hati panik.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Mas Kim.\" → \"Ya, ada apa?\" (Mode panik diaktifkan)"
+        ],
+        "original": "네, 무슨 일일까요?"
+      }
+    },
+    {
+      "no": 18,
+      "ko": {
+        "title": "헉!",
+        "category": "반사 반응어",
+        "meaning": "놀라거나 당황했을 때 생각보다 먼저 튀어나오는 말. 정말 놀라서 쓰기도 하지만, 실수를 지적받았을 때 빠르게 반응하고 수습을 시작하는 신호이기도 하다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "앗!"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"헉! 죄송합니다ㅜㅜ\" (빠른 사과 권법)"
+        ],
+        "roman": "Heok!"
+      },
+      "en": {
+        "title": "Gasp!",
+        "category": "Reflex Response Word",
+        "meaning": "A word that pops out before you can even think when you are surprised or panicked. Sometimes you use it because you are truly surprised, but it is also a signal that you noticed your mistake and will fix it fast.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Gasp! I am so sorry T_T\" (Fast apology skill)"
+        ],
+        "original": "헉!"
+      },
+      "id": {
+        "title": "Astaga! / Hah!",
+        "category": "Kata Respon Refleks",
+        "meaning": "Kata yang meluncur keluar sebelum sempat berpikir saat kamu kaget atau panik. Kadang dipakai karena kamu benar-benar kaget, tapi ini juga sinyal kalau kamu menyadari kesalahanmu dan akan segera memperbaikinya.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Astaga! Maafkan saya T_T\" (Skill minta maaf kilat)"
+        ],
+        "original": "헉!"
+      }
+    },
+    {
+      "no": 19,
+      "ko": {
+        "title": "확인해 보겠습니다",
+        "category": "방어어 / 책임 추적어",
+        "meaning": "문제가 생겼을 때, 상황부터 살펴보겠다고 답하는 말. 무엇을 확인하려는지는 말하는 사람만 안다.",
+        "list": [],
+        "hidden": [
+          "무슨 일인지 파악 해 보겠습니다.",
+          "누구 잘못인지 확인해 보겠습니다."
+        ],
+        "synonyms": [
+          "확인하고 바로 연락드리겠습니다"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"확인해 보겠습니다!\" (문제 파악하기 시작)"
+        ],
+        "roman": "Hwagin Haebogetseumnida!"
+      },
+      "en": {
+        "title": "I will check on that",
+        "category": "Defense Word / Blame Tracking Word",
+        "meaning": "When a problem happens, you answer that you will look into the situation first. Only the person speaking knows what they are actually checking.",
+        "list": [],
+        "hidden": [
+          "I will figure out what happened.",
+          "I will figure out whose fault it is."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"I will check on that!\" (Starts figuring out the problem)"
+        ],
+        "original": "확인해 보겠습니다"
+      },
+      "id": {
+        "title": "Akan saya cek",
+        "category": "Kata Pertahanan / Kata Pelacak Kesalahan",
+        "meaning": "Saat ada masalah, kamu menjawab akan memeriksa situasinya dulu. Cuma orang yang ngomong yang tahu apa yang sebenarnya sedang dia cek.",
+        "list": [],
+        "hidden": [
+          "Aku akan cari tahu apa yang terjadi.",
+          "Aku akan cari tahu ini salah siapa."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Akan saya cek!\" (Mulai melacak akar masalah)"
+        ],
+        "original": "확인해 보겠습니다"
+      }
+    },
+    {
+      "no": 20,
+      "ko": {
+        "title": "엥?",
+        "category": "현실 부정어",
+        "meaning": "눈앞의 상황이 믿기지 않거나 너무 어이가 없을 때 나오는 반응. 저장하지 못한 채 어도비 앱이 꺼지는 순간처럼, 벌어진 일을 바로 받아들이기 어려울 때 쓴다. 해결 방법을 찾기 전에 일단 현실부터 의심한다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "미친"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"엥? 진짜로??\" (어도비 갑자기 종료)"
+        ],
+        "roman": "Eng?"
+      },
+      "en": {
+        "title": "Huh?",
+        "category": "Reality Denial Word",
+        "meaning": "A reaction when you can't believe what is happening or it is too ridiculous. Like the moment your design app crashes before you saved. You doubt reality before you look for a way to fix it.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Huh? Really??\" (Adobe just randomly closed)"
+        ],
+        "original": "엥?"
+      },
+      "id": {
+        "title": "Hah?",
+        "category": "Kata Penolakan Realita",
+        "meaning": "Reaksi saat kamu tidak percaya dengan apa yang terjadi atau saat situasinya terlalu konyol. Seperti momen saat aplikasi desainmu nge-crash sebelum di-save. Kamu meragukan realita sebelum mencari cara memperbaikinya.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Hah? Beneran??\" (Adobe tiba-tiba tertutup sendiri)"
+        ],
+        "original": "엥?"
+      }
+    },
+    {
+      "no": 21,
+      "ko": {
+        "title": "거의 다 됐어요",
+        "category": "관용어 / 위험어",
+        "meaning": "상대를 안심시키고 시간을 조금 더 벌기 위한 문장. 말하는 사람도 믿고 싶은 희망 회로다. \"거의\"가 얼마나 남았다는 뜻인지는 본인도 모른다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "금방 보내드릴게요 / 거의 끝났습니다 / 오늘 가능할 것 같아요"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"오늘 안에는 가능할 것 같아요\" (다음 날 새벽 4시 전달)"
+        ],
+        "roman": "Geoui Da Dwaesseoyo"
+      },
+      "en": {
+        "title": "It's almost done",
+        "category": "Idiom / Danger Word",
+        "meaning": "A sentence to calm the other person down and buy a little more time. It is a hope circuit for the person saying it, too. Not even the speaker knows how much \"almost\" really means.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"I think it will be possible today.\" (Sends it at 4 AM the next day)"
+        ],
+        "original": "거의 다 됐어요"
+      },
+      "id": {
+        "title": "Hampir selesai",
+        "category": "Idiom / Kata Bahaya",
+        "meaning": "Kalimat untuk menenangkan lawan bicara dan mengulur sedikit waktu. Ini juga jadi harapan (hope circuit) bagi orang yang mengucapkannya. Bahkan si pembicara pun nggak tahu seberapa \"hampir\" sebenarnya.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Sepertinya hari ini bisa dikirim.\" (Dikirim jam 4 pagi keesokan harinya)"
+        ],
+        "original": "거의 다 됐어요"
+      }
+    },
+    {
+      "no": 22,
+      "ko": {
+        "title": "확인 부탁드려도 될까요?",
+        "category": "우회 지적 표현",
+        "meaning": "잘못되었거나 애매한 부분을 상대가 다시 살펴봐 주기를 바랄 때 쓰는 말. 바로 지적하기 부담스러워 확인을 부탁하는 형태로 돌려 말한다. 정중하게 묻고 있지만, 어디를 봐야 하는지는 이미 짚어두었다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "한번 봐주실 수 있을까요? / 체크 부탁드립니다"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "계약서의 이 부분 확인 부탁드려도 될까요?\" (여기 틀렸어요)"
+        ],
+        "roman": "Hwagin Butakdeuryeodo Doelkkayo?"
+      },
+      "en": {
+        "title": "Could you please check this?",
+        "category": "Indirect Pointing Out Expression",
+        "meaning": "Used when you want the other person to look at a wrong or unclear part again. It is a burden to point it out directly, so you ask them to \"check\" it instead. You ask politely, but you already know exactly what part they need to look at.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Could you please check this part of the contract?\" (This part is wrong)"
+        ],
+        "original": "확인 부탁드려도 될까요?"
+      },
+      "id": {
+        "title": "Bisa tolong dicek?",
+        "category": "Ungkapan Menunjuk Secara Tidak Langsung",
+        "meaning": "Digunakan saat kamu ingin orang lain melihat lagi bagian yang salah atau kurang jelas. Kalau ditunjuk langsung kesannya berat, jadi kamu meminta mereka untuk \"mengeceknya\". Kamu bertanya dengan sopan, tapi kamu sudah tahu persis bagian mana yang harus mereka lihat.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Bisa tolong dicek bagian kontrak yang ini?\" (Bagian ini salah)"
+        ],
+        "original": "확인 부탁드려도 될까요?"
+      }
+    },
+    {
+      "no": 23,
+      "ko": {
+        "title": "리마인드 드립니다",
+        "category": "정중 독촉어",
+        "meaning": "이미 전달한 내용을 다시 꺼내며 확인이나 답변을 요청하는 말. 잊었을까 봐 알려주는 모양새지만, 속으로는 빠른 답을 기다리고 있다. 한 번 더 연락할 이유가 필요할 때 유용한 정중한 독촉이다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "혹시 확인하셨을까요? / 다시 한번 말씀드립니다"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"혹시나 해서 리마인드 드립니다!\" (빨리 확인해주세요)"
+        ],
+        "roman": "Rimaindeu Deurimnida"
+      },
+      "en": {
+        "title": "Just sending a reminder",
+        "category": "Polite Urging Word",
+        "meaning": "Asking for an answer or confirmation about something you already sent. It looks like you are just helping them remember, but inside you are waiting for a fast answer. A very useful polite way to rush someone when you need a reason to contact them again.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Just sending a reminder just in case!\" (Please check it quickly)"
+        ],
+        "original": "리마인드 드립니다"
+      },
+      "id": {
+        "title": "Sekadar mengingatkan",
+        "category": "Kata Desakan Sopan",
+        "meaning": "Meminta jawaban atau konfirmasi tentang sesuatu yang sudah kamu kirim. Kelihatannya kamu cuma membantu mereka ingat, padahal di dalam hati kamu menunggu balasan cepat. Cara sopan yang sangat berguna untuk mendesak seseorang saat kamu butuh alasan untuk menghubungi mereka lagi.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Sekadar mengingatkan untuk berjaga-jaga!\" (Tolong buruan dicek)"
+        ],
+        "original": "리마인드 드립니다"
+      }
+    },
+    {
+      "no": 24,
+      "ko": {
+        "title": "흠",
+        "category": "사고 로딩음 / AI 명령어",
+        "meaning": "생각을 정리하는 동안 말보다 먼저 나오는 소리. 잠깐의 고민일 수도 있지만, 뒤에 다른 의견이 나올 것 같은 예고음이기도 하다.",
+        "list": [],
+        "hidden": [
+          "아직 생각 중이다.",
+          "마음에 들지 않지만 이유를 설명하기 어렵다.",
+          "이제 반대 의견을 꺼내려 한다."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"흠… 다시 해봐\" (이미 마음에 안 듦)"
+        ],
+        "roman": "Heum"
+      },
+      "en": {
+        "title": "Hmm",
+        "category": "Thinking Loading Sound / AI Command",
+        "meaning": "A sound that comes out before words while you are organizing your thoughts. It might just be a quick thought, but it is also a warning sound that a different opinion is coming next.",
+        "list": [],
+        "hidden": [
+          "I am still thinking.",
+          "I don't like it, but it's hard to explain why.",
+          "I am going to share an opposing opinion now."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Hmm... try it again.\" (I already don't like it)"
+        ],
+        "original": "흠"
+      },
+      "id": {
+        "title": "Hmm",
+        "category": "Suara Loading Berpikir / Perintah AI",
+        "meaning": "Suara yang keluar sebelum berbicara saat kamu sedang menyusun pikiran. Mungkin cuma pikiran sekilas, tapi ini juga suara peringatan kalau opini yang berbeda bakal muncul setelahnya.",
+        "list": [],
+        "hidden": [
+          "Aku masih mikir.",
+          "Aku kurang suka, tapi susah ngejelasin kenapanya.",
+          "Aku mau nyampein pendapat yang berlawanan nih."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Hmm... coba diulang deh.\" (Aku udah nggak suka)"
+        ],
+        "original": "흠"
+      }
+    },
+    {
+      "no": 25,
+      "ko": {
+        "title": "조금 더 자연스럽게",
+        "category": "AI 명령어",
+        "meaning": "AI와 씨름하며 자주 쓰게 된 말. 어디가 문제인지 정확히 짚지는 못해도, 지금보다 AI 티가 덜 나기를 바랄 때 쓴다. 그런데 고칠수록 더 어색해지기도 한다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "덜 AI스럽게 / 사람이 만든 것처럼"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"이 부분만 조금 더 자연스럽게 만들어봐\" (더 어색해짐)"
+        ],
+        "roman": "Jogeum Deo Jayeonseureopge"
+      },
+      "en": {
+        "title": "Make it a little more natural",
+        "category": "AI Command",
+        "meaning": "A phrase used often while struggling with AI. You can't exactly point out what is wrong, but you want it to look less like AI made it. But sometimes, the more you fix it, the weirder it gets.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Just make this part a little more natural.\" (It gets weirder)"
+        ],
+        "original": "조금 더 자연스럽게"
+      },
+      "id": {
+        "title": "Tolong buat sedikit lebih natural",
+        "category": "Perintah AI",
+        "meaning": "Frasa yang sering dipakai saat kesulitan pakai AI. Kamu tidak bisa menunjuk dengan pasti apa yang salah, tapi kamu ingin itu tidak terlalu kelihatan buatan AI. Tapi kadang, makin direvisi, malah makin aneh.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Tolong buat bagian ini sedikit lebih natural aja.\" (Malah jadi makin aneh)"
+        ],
+        "original": "조금 더 자연스럽게"
+      }
+    },
+    {
+      "no": 26,
+      "ko": {
+        "title": "아오 진짜",
+        "category": "AI 명령어 / AI 분노 표현",
+        "meaning": "AI와 씨름하며 자주 쓰게 된 말. 요청과 다른 결과가 나오거나 수정할수록 이상해질 때 쓴다. 욕은 하고 싶은데, 언젠가 AI가 세상을 지배할까 봐 이 정도로 참는다. 그래도 달라지는 게 없어 결국 새 창을 켠다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "하… / 아니 그게 아니라"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"아오 진짜, 좀 바꿔라. 이 부분 바꾸라고\" (결국 새 창)"
+        ],
+        "roman": "Ao Jinjja"
+      },
+      "en": {
+        "title": "Ah, seriously",
+        "category": "AI Command / AI Anger Expression",
+        "meaning": "Used when the AI gives you a different result than you asked for, or it gets weirder as you fix it. You want to swear at it, but you hold back just in case AI takes over the world one day. But nothing changes, so you just open a new chat window.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ah, seriously, change it. Change this part.\" (Eventually opens a new chat)"
+        ],
+        "original": "아오 진짜"
+      },
+      "id": {
+        "title": "Ah, beneran deh",
+        "category": "Perintah AI / Ungkapan Kemarahan AI",
+        "meaning": "Digunakan saat AI memberi hasil yang berbeda dari yang diminta, atau malah jadi makin aneh pas direvisi. Bawaannya pengen maki-maki, tapi kamu tahan buat jaga-jaga kalau suatu hari AI menguasai dunia. Tapi nggak ada yang berubah, jadi akhirnya kamu buka chat baru.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ah, beneran deh, ubah. Ubah bagian ini.\" (Ujung-ujungnya buka jendela chat baru)"
+        ],
+        "original": "아오 진짜"
+      }
+    },
+    {
+      "no": 27,
+      "ko": {
+        "title": "아, 하기 싫어",
+        "category": "의식적 반항어",
+        "meaning": "해야 할 일을 앞두고 말로 해보는 작은 반항. 하기 싫다고 말해도 해야 한다는 사실은 안다. 입으로는 거부하고 손으로는 작업을 시작한다.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [
+          "집에 가고 싶다 / 언제 집에 가지?"
+        ],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"아~~ 하기 싫다~~\" (그리고 바로 작업 시작)"
+        ],
+        "roman": "A, Hagi Sireo"
+      },
+      "en": {
+        "title": "Ah, I don't want to do this",
+        "category": "Conscious Rebellion Word",
+        "meaning": "A small verbal rebellion before you start working. You say you hate it, but you know you have to do it anyway. Your mouth refuses, but your hands start working.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ah~~ I don't want to do this~~\" (And immediately starts working)"
+        ],
+        "original": "아, 하기 싫어"
+      },
+      "id": {
+        "title": "Ah, males banget ngerjainnya",
+        "category": "Kata Pemberontakan Sadar",
+        "meaning": "Pemberontakan verbal kecil sebelum kamu mulai bekerja. Kamu bilang kamu benci melakukannya, tapi kamu tahu kamu tetap harus mengerjakannya. Mulutmu menolak, tapi tanganmu mulai bekerja.",
+        "list": [],
+        "hidden": [],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Ah~~ males banget ngerjainnya~~\" (Lalu langsung mulai ngerjain)"
+        ],
+        "original": "아, 하기 싫어"
+      }
+    },
+    {
+      "no": 28,
+      "ko": {
+        "title": "아니",
+        "category": "부정 아닌 부정어 추임새",
+        "meaning": "상대의 말을 부정할 때도, 내 말을 시작할 때도 쓰는 말. 뒤에 어떤 문장이 오느냐에 따라 뜻이 달라져서, '아니'만 듣고는 반대인지 동의인지 알 수 없다.",
+        "list": [],
+        "hidden": [
+          "정말 아니라는 뜻.",
+          "반대하는 건 아니지만 내 말도 들어달라는 뜻.",
+          "동의하는 말을 하기 전에도 붙이는 말버릇."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"아니 그거 좋은데요?\" (동의한다는 뜻)"
+        ],
+        "roman": "Ani"
+      },
+      "en": {
+        "title": "No, but...",
+        "category": "Non-negative Filler Word",
+        "meaning": "A word used when disagreeing with someone, but also used when just starting your own sentence. The meaning changes depending on what comes next, so you can't tell if they agree or disagree just by hearing this word.",
+        "list": [],
+        "hidden": [
+          "It really means \"no.\"",
+          "I am not disagreeing, but please listen to my words too.",
+          "A habit you say before you agree with someone."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"No, but that's actually really good?\" (Means they agree)"
+        ],
+        "original": "아니"
+      },
+      "id": {
+        "title": "Enggak, tapi...",
+        "category": "Kata Pengisi Non-Negatif",
+        "meaning": "Kata yang digunakan saat tidak setuju dengan seseorang, tapi juga digunakan sekadar untuk memulai kalimatmu sendiri. Maknanya berubah tergantung apa kata selanjutnya, jadi kamu tidak bisa tahu apakah mereka setuju atau tidak hanya dengan mendengar kata ini.",
+        "list": [],
+        "hidden": [
+          "Artinya benar-benar \"enggak.\"",
+          "Aku bukannya nggak setuju, tapi tolong dengerin omonganku juga.",
+          "Kebiasaan yang diucapkan sebelum kamu setuju dengan seseorang."
+        ],
+        "synonyms": [],
+        "symbols": [],
+        "caution": "",
+        "examples": [
+          "\"Enggak, tapi itu sebenarnya bagus banget lho?\" (Artinya mereka setuju)"
+        ],
+        "original": "아니"
+      }
+    }
+  ]
+}
