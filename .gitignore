@@ -5,3 +5,6 @@
 /03_YOU DID IT/
 /PNG/
 .DS_Store
+
+# QR 열쇠와 QR 이미지 (공개되면 안 됨)
+/qr/

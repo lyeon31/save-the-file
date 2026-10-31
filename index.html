@@ -6,6 +6,7 @@
   <title>Save The File ★1</title>
   <meta name="description" content="프리랜서 그래픽 디자이너의 첫 1년을 게임 도감처럼 정리한 아트북 『Save The File ★1』">
   <meta name="theme-color" content="#4fb2ec">
+  <meta name="robots" content="noindex, nofollow">
   <meta property="og:title" content="Save The File ★1">
   <meta property="og:description" content="프리랜서 1년은 튜토리얼 없는 게임이었다.">
   <meta property="og:image" content="https://lyeon31.github.io/save-the-file/assets/og-image.jpg">
@@ -20,7 +21,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap">
-  <link rel="preload" href="data/intro.json" as="fetch" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,6 +32,22 @@
     <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="dd dd-6a" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
     <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="dd dd-6b" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
     <picture><source srcset="assets/webp/6.webp" type="image/webp"><img class="dd dd-6c" src="assets/PNG/6.png" alt="" loading="lazy" decoding="async"></picture>
+  </div>
+
+  <!-- QR 전용 잠금 화면 (QR로 들어오지 않은 사람에게만 보임) -->
+  <div class="gate" id="gate" hidden>
+    <div class="gate-win">
+      <div class="gate-bar"><span>Save The File</span><span class="gate-lock" aria-hidden="true">🔒</span></div>
+      <div class="gate-body">
+        <img class="gate-logo" id="gateLogo" alt="Save The File ★1" width="748" height="519">
+        <img class="gate-char" id="gateChar" alt="" width="1005" height="1014">
+        <p class="gate-title">QR ONLY</p>
+        <p lang="ko">이 사이트는 아트북페어 현장의 <b>QR코드</b>로만 열 수 있어요.</p>
+        <p lang="en">This site opens only from the <b>QR code</b> at the art book fair.</p>
+        <p lang="id">Situs ini hanya bisa dibuka lewat <b>kode QR</b> di pameran art book.</p>
+        <p class="gate-sys">NO SAVE DATA FOUND<span class="blink">_</span></p>
+      </div>
+    </div>
   </div>
 
   <div class="window" id="app">

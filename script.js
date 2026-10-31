@@ -1158,20 +1158,64 @@
     if (route === "home") updateDots();
   }
 
-  window.addEventListener("hashchange", go);
+  window.addEventListener("hashchange", () => { if (unlocked) go(); });
+
+  /* ---------------------------------------------------------
+     QR 전용 잠금
+     QR 주소(?k=열쇠)로 들어오면 열쇠를 이 기기에만 저장하고 주소창에서 지운다.
+     → 주소를 복사·공유해도 열쇠 없는 기본 주소만 나가서, 받은 사람은 잠금 화면을 본다.
+     코드에는 열쇠가 아니라 열쇠의 SHA-256 값만 있다. (열쇠는 qr/key.txt, 저장소에 안 올라감)
+     --------------------------------------------------------- */
+  const KEY_HASH = "e9dd03a63903c89be8e9a16e4535b4cd0dabf463297f87071a4a956bc655d35c";
+  let unlocked = false;
+
+  async function sha256(text) {
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+    return Array.from(new Uint8Array(buf), (b) => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  async function checkPass() {
+    if (!window.crypto || !crypto.subtle) return false;  // https(또는 localhost)에서만 동작
+    const url = new URL(location.href);
+    const fromQR = url.searchParams.get("k");
+    if (fromQR) {
+      url.searchParams.delete("k");
+      history.replaceState(null, "", url.pathname + url.search + url.hash);
+      if ((await sha256(fromQR)) === KEY_HASH) {
+        store.set("stf-pass", fromQR);
+        return true;
+      }
+    }
+    const saved = store.get("stf-pass");
+    return !!saved && (await sha256(saved)) === KEY_HASH;
+  }
 
   /* ---------------------------------------------------------
      시작
      --------------------------------------------------------- */
-  applyLang();
-  renderHome().catch((e) => {
-    console.error(e);
-    $("#introLines").textContent = "data/intro.json 을 불러오지 못했어요. 로컬에서는 웹 서버로 열어주세요 (README 참고).";
-  });
-  go();
+  function start() {
+    unlocked = true;
+    document.documentElement.classList.add("unlocked");
+    applyLang();
+    renderHome().catch((e) => {
+      console.error(e);
+      $("#introLines").textContent = "data/intro.json 을 불러오지 못했어요. 로컬에서는 웹 서버로 열어주세요 (README 참고).";
+    });
+    go();
+  }
+
+  function showGate() {
+    const gate = $("#gate");
+    $("#gateChar").src = imgSrc(5);
+    $("#gateLogo").src = imgSrc(2);
+    gate.hidden = false;
+  }
+
+  checkPass().then((ok) => (ok ? start() : showGate()), () => showGate());
 
   // 첫 화면이 다 뜬 뒤, 로딩·토스트 캐릭터를 조용히 미리 받아둔다 (느린 와이파이 대비)
   window.addEventListener("load", () => {
+    if (!unlocked) return;
     const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 1200));
     idle(() => { setPicture($("#loadingChar"), "5"); setPicture($("#toastIcon"), "5"); });
   });
