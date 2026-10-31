@@ -226,6 +226,16 @@
     el("ol", { class: `mark-list ${cls || ""}` },
       items.map((s, i) => el("li", {}, el("span", { class: "mark", "aria-hidden": "true", text: marks[i] || "•" }), el("span", { text: s }))));
 
+  // 자물쇠 아이콘: 고리 + 몸통 + 열쇠 구멍
+  function lockIcon() {
+    const span = el("span", { class: "lock", "aria-hidden": "true" });
+    span.innerHTML =
+      '<svg viewBox="0 0 24 24"><path d="M7.5 11V7.5a4.5 4.5 0 0 1 9 0V11" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/>' +
+      '<rect x="4" y="10.5" width="16" height="11.5" rx="2.5" fill="currentColor"/>' +
+      '<circle cx="12" cy="15.3" r="1.9" fill="#fff"/><rect x="11.05" y="15.8" width="1.9" height="3.6" rx=".95" fill="#fff"/></svg>';
+    return span;
+  }
+
   /* ---------------------------------------------------------
      언어
      --------------------------------------------------------- */
@@ -577,7 +587,7 @@
     // 칭호 카드 (3개 이상)
     wrap.append(done >= TITLE_MIN ? titleCard(book) :
       el("p", { class: "ydi-title-lock" },
-        el("span", { class: "lock", "aria-hidden": "true" }),
+        lockIcon(),
         t("titleLocked")(TITLE_MIN - done)));
 
     // 업적 목록
@@ -589,7 +599,7 @@
           return el("li", { class: `ydi-item${on ? " on" : ""}`, id: `ydi-${it.no}` },
             el("div", { class: "ydi-row" },
               el("span", { class: "ydi-badge", "aria-hidden": "true" },
-                on ? el("span", { class: "trophy", text: "🏆" }) : el("span", { class: "lock" })),
+                on ? el("span", { class: "trophy", text: "🏆" }) : lockIcon()),
               el("div", { class: "ydi-head" },
                 el("span", { class: "ydi-no", text: `No.${pad2(it.no)}${on ? "" : " · " + t("locked")}` }),
                 el("h3", { class: "ydi-name", text: d.title })
@@ -619,7 +629,7 @@
     if (on) {
       state.title = it.no;  // 방금 달성한 업적을 칭호 후보로
       store.set("stf-title", String(it.no));
-      showToast(`🏆 ${t("unlocked")}: ${it[L()].title}`);
+      showToast(`${t("unlocked")}: ${it[L()].title}`);
     } else if (state.title === it.no) {
       state.title = null;
     }
